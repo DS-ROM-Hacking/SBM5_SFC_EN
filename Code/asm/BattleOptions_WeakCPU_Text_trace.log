@@ -1,0 +1,1367 @@
+c01d45 lda [$60]     [d1b11a] A:b1d1 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdiZc V: 27 H:  10 F:20
+c01d47 sta $64       [000064] A:b104 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H:  10 F:20
+c01d49 and #$1f               A:b104 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H:  30 F:20
+c01d4b inc                    A:b104 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H:  42 F:20
+c01d4c sta $65       [000065] A:b105 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H:  54 F:20
+c01d4e lda $64       [000064] A:b105 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H:  74 F:20
+c01d50 lsr a                  A:b104 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H:  94 F:20
+c01d51 lsr a                  A:b102 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 106 F:20
+c01d52 lsr a                  A:b101 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 118 F:20
+c01d53 lsr a                  A:b100 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdiZC V: 27 H: 130 F:20
+c01d54 and #$0e               A:b100 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdiZc V: 27 H: 142 F:20
+c01d56 sta $64       [000064] A:b100 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdiZc V: 27 H: 154 F:20
+c01d58 inc $60       [000060] A:b100 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdiZc V: 27 H: 174 F:20
+c01d5a bne $1d62     [c01d62] A:b100 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 208 F:20
+c01d62 rts                    A:b100 X:0000 Y:0005 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 226 F:20
+c01cca plx                    A:b100 X:0000 Y:0005 S:01e6 D:0000 DB:00 nvMXdizc V: 27 H: 266 F:20
+c01ccb rtl                    A:b100 X:0012 Y:0005 S:01e7 D:0000 DB:00 nvMXdizc V: 27 H: 292 F:20
+c000ee stz $0352     [000352] A:b100 X:0012 Y:0005 S:01ea D:0000 DB:00 nvMXdizc V: 27 H: 334 F:20
+c000f1 jsr $0135     [c00135] A:b100 X:0012 Y:0005 S:01ea D:0000 DB:00 nvMXdizc V: 27 H: 360 F:20
+c00135 lda $1d2a     [001d2a] A:b100 X:0012 Y:0005 S:01e8 D:0000 DB:00 nvMXdizc V: 27 H: 400 F:20
+c00138 pha                    A:b106 X:0012 Y:0005 S:01e8 D:0000 DB:00 nvMXdizc V: 27 H: 426 F:20
+c00139 ldy $1d35     [001d35] A:b106 X:0012 Y:0005 S:01e7 D:0000 DB:00 nvMXdizc V: 27 H: 446 F:20
+c0013c jsl $c008e0   [c008e0] A:b106 X:0012 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 27 H: 472 F:20
+c008e0 lda $1d28     [001d28] A:b106 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 526 F:20
+c008e3 sta $b1       [0000b1] A:b116 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 592 F:20
+c008e5 lda $1d2a     [001d2a] A:b116 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 612 F:20
+c008e8 sta $b3       [0000b3] A:b106 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 638 F:20
+c008ea jsr $0906     [c00906] A:b106 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 27 H: 658 F:20
+c00906 phy                    A:b106 X:0012 Y:0002 S:01e2 D:0000 DB:00 nvMXdizc V: 27 H: 698 F:20
+c00907 lda $0372     [000372] A:b106 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 718 F:20
+c0090a beq $0915     [c00915] A:b100 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H: 744 F:20
+c00915 sta $b5       [0000b5] A:b100 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H: 762 F:20
+c00917 stz $b2       [0000b2] A:b100 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H: 782 F:20
+c00919 stz $b4       [0000b4] A:b100 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H: 802 F:20
+c0091b lda $b1       [0000b1] A:b100 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H: 822 F:20
+c0091d clc                    A:b116 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 842 F:20
+c0091e adc $036c     [00036c] A:b116 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 854 F:20
+c00921 and #$7f               A:b116 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 880 F:20
+c00923 ldy $b5       [0000b5] A:b116 X:0012 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 892 F:20
+c00925 bne $0929     [c00929] A:b116 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H: 912 F:20
+c00927 and #$3f               A:b116 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H: 924 F:20
+c00929 sta $b1       [0000b1] A:b116 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 936 F:20
+c0092b lda $b3       [0000b3] A:b116 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 956 F:20
+c0092d clc                    A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 976 F:20
+c0092e adc $036d     [00036d] A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H: 988 F:20
+c00931 and #$7f               A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H:1014 F:20
+c00933 ldy $b5       [0000b5] A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H:1026 F:20
+c00935 bne $0939     [c00939] A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H:1046 F:20
+c00937 and #$1f               A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdiZc V: 27 H:1058 F:20
+c00939 sta $b3       [0000b3] A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H:1070 F:20
+c0093b rep #$20               A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 27 H:1090 F:20
+c0093d ldy $b5       [0000b5] A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 27 H:1108 F:20
+c0093f bne $0956     [c00956] A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1128 F:20
+c00941 lda $b1       [0000b1] A:b106 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1140 F:20
+c00943 and #$0020             A:0016 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 27 H:1168 F:20
+c00946 asl a                  A:0000 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1186 F:20
+c00947 asl a                  A:0000 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1198 F:20
+c00948 asl a                  A:0000 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1210 F:20
+c00949 asl a                  A:0000 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1222 F:20
+c0094a asl a                  A:0000 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1234 F:20
+c0094b sta $9f       [00009f] A:0000 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1246 F:20
+c0094d lda $b1       [0000b1] A:0000 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 27 H:1274 F:20
+c0094f and #$001f             A:0016 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 27 H:1302 F:20
+c00952 ora $9f       [00009f] A:0016 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 27 H:1320 F:20
+c00954 sta $b1       [0000b1] A:0016 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 27 H:1348 F:20
+c00956 lda $b3       [0000b3] A:0016 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H:  12 F:20
+c00958 asl a                  A:0006 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H:  40 F:20
+c00959 asl a                  A:000c X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H:  52 F:20
+c0095a asl a                  A:0018 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H:  64 F:20
+c0095b asl a                  A:0030 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H:  76 F:20
+c0095c asl a                  A:0060 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H:  88 F:20
+c0095d ldy $b5       [0000b5] A:00c0 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H: 100 F:20
+c0095f beq $0963     [c00963] A:00c0 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 28 H: 120 F:20
+c00963 ora $b1       [0000b1] A:00c0 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 28 H: 138 F:20
+c00965 ldy $0372     [000372] A:00d6 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H: 166 F:20
+c00968 bne $096e     [c0096e] A:00d6 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 28 H: 192 F:20
+c0096a clc                    A:00d6 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 28 H: 204 F:20
+c0096b adc $036f     [00036f] A:00d6 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 28 H: 216 F:20
+c0096e sep #$20               A:30d6 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 28 H: 250 F:20
+c00970 ply                    A:30d6 X:0012 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 28 H: 268 F:20
+c00971 rts                    A:30d6 X:0012 Y:0002 S:01e2 D:0000 DB:00 nvMXdizc V: 28 H: 294 F:20
+c008ed sta $08       [000008] A:30d6 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 28 H: 334 F:20
+c008ef xba                    A:30d6 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 28 H: 354 F:20
+c008f0 sta $09       [000009] A:d630 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 28 H: 372 F:20
+c008f2 rtl                    A:d630 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 28 H: 392 F:20
+c00140 rep #$20               A:d630 X:0012 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 28 H: 434 F:20
+c00142 lda $08       [000008] A:d630 X:0012 Y:0002 S:01e7 D:0000 DB:00 nvmXdizc V: 28 H: 452 F:20
+c00144 sta $ae       [0000ae] A:30d6 X:0012 Y:0002 S:01e7 D:0000 DB:00 nvmXdizc V: 28 H: 480 F:20
+c00146 sep #$20               A:30d6 X:0012 Y:0002 S:01e7 D:0000 DB:00 nvmXdizc V: 28 H: 508 F:20
+c00148 jsl $c00478   [c00478] A:30d6 X:0012 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 28 H: 526 F:20
+c00478 phx                    A:30d6 X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 28 H: 620 F:20
+c00479 rep #$30               A:30d6 X:0012 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 28 H: 640 F:20
+c0047b ldx $0357     [000357] A:30d6 X:0012 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 28 H: 658 F:20
+c0047e lda $ae       [0000ae] A:30d6 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 28 H: 692 F:20
+c00480 sta $7e8004,x [7e9e4a] A:30d6 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 28 H: 720 F:20
+c00484 lda $0352     [000352] A:30d6 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 28 H: 760 F:20
+c00487 sta $7e8000,x [7e9e46] A:0000 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdiZc V: 28 H: 794 F:20
+c0048b txa                    A:0000 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdiZc V: 28 H: 834 F:20
+c0048c clc                    A:1e46 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 28 H: 846 F:20
+c0048d adc #$0006             A:1e46 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 28 H: 858 F:20
+c00490 sta $035b     [00035b] A:1e4c X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 28 H: 876 F:20
+c00493 sep #$30               A:1e4c X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 28 H: 910 F:20
+c00495 plx                    A:1e4c X:0046 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 28 H: 928 F:20
+c00496 rtl                    A:1e4c X:0012 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 28 H: 954 F:20
+c0014c ldx $1d34     [001d34] A:1e4c X:0012 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 28 H: 996 F:20
+c0014f jsl $c01ccc   [c01ccc] A:1e4c X:0006 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 28 H:1022 F:20
+c01ccc phx                    A:1e4c X:0006 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 28 H:1076 F:20
+c01ccd ldx $64       [000064] A:1e4c X:0006 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 28 H:1096 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:1e4c X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 28 H:1116 F:20
+c01cf5 lda [$60]     [d1b11b] A:1e4c X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 28 H:1168 F:20
+c01cf7 inc $60       [000060] A:1e3f X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 28 H:1210 F:20
+c01cf9 bne $1d01     [c01d01] A:1e3f X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 28 H:1244 F:20
+c01d01 rts                    A:1e3f X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 28 H:1262 F:20
+c01cd2 ldx $66       [000066] A:1e3f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 28 H:1302 F:20
+c01cd4 sta $0200,x   [000200] A:1e3f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 28 H:1322 F:20
+c01cd7 inc $66       [000066] A:1e3f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 28 H:1354 F:20
+c01cd9 dec $65       [000065] A:1e3f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H:  24 F:20
+c01cdb bne $1ce0     [c01ce0] A:1e3f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H:  58 F:20
+c01ce0 lda $0200,x   [000200] A:1e3f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H:  76 F:20
+c01ce3 plx                    A:1e3f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 102 F:20
+c01ce4 rtl                    A:1e3f X:0006 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 29 H: 128 F:20
+c00153 sta $a5       [0000a5] A:1e3f X:0006 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 29 H: 170 F:20
+c00155 jsl $c01ccc   [c01ccc] A:1e3f X:0006 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 29 H: 190 F:20
+c01ccc phx                    A:1e3f X:0006 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 29 H: 244 F:20
+c01ccd ldx $64       [000064] A:1e3f X:0006 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 264 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:1e3f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 29 H: 284 F:20
+c01cf5 lda [$60]     [d1b11c] A:1e3f X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 29 H: 336 F:20
+c01cf7 inc $60       [000060] A:1e40 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 29 H: 378 F:20
+c01cf9 bne $1d01     [c01d01] A:1e40 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 29 H: 412 F:20
+c01d01 rts                    A:1e40 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 29 H: 430 F:20
+c01cd2 ldx $66       [000066] A:1e40 X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 470 F:20
+c01cd4 sta $0200,x   [000201] A:1e40 X:0001 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 490 F:20
+c01cd7 inc $66       [000066] A:1e40 X:0001 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 522 F:20
+c01cd9 dec $65       [000065] A:1e40 X:0001 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 596 F:20
+c01cdb bne $1ce0     [c01ce0] A:1e40 X:0001 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 630 F:20
+c01ce0 lda $0200,x   [000201] A:1e40 X:0001 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 648 F:20
+c01ce3 plx                    A:1e40 X:0001 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 674 F:20
+c01ce4 rtl                    A:1e40 X:0006 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 29 H: 700 F:20
+c00159 sta $a6       [0000a6] A:1e40 X:0006 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 29 H: 742 F:20
+c0015b jsl $c00497   [c00497] A:1e40 X:0006 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 29 H: 762 F:20
+c00497 phx                    A:1e40 X:0006 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 29 H: 816 F:20
+c00498 rep #$30               A:1e40 X:0006 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H: 836 F:20
+c0049a ldx $035b     [00035b] A:1e40 X:0006 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 29 H: 854 F:20
+c0049d lda $a5       [0000a5] A:1e40 X:1e4c Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 29 H: 888 F:20
+c0049f sta $7e8000,x [7e9e4c] A:403f X:1e4c Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 29 H: 916 F:20
+c004a3 inx                    A:403f X:1e4c Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 29 H: 956 F:20
+c004a4 inx                    A:403f X:1e4d Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 29 H: 968 F:20
+c004a5 stx $035b     [00035b] A:403f X:1e4e Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 29 H: 980 F:20
+c004a8 sep #$30               A:403f X:1e4e Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 29 H:1014 F:20
+c004aa plx                    A:403f X:004e Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H:1032 F:20
+c004ab rtl                    A:403f X:0006 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 29 H:1058 F:20
+c0015f dex                    A:403f X:0006 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 29 H:1100 F:20
+c00160 dex                    A:403f X:0005 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 29 H:1112 F:20
+c00161 bne $014f     [c0014f] A:403f X:0004 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 29 H:1124 F:20
+c0014f jsl $c01ccc   [c01ccc] A:403f X:0004 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 29 H:1142 F:20
+c01ccc phx                    A:403f X:0004 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 29 H:1196 F:20
+c01ccd ldx $64       [000064] A:403f X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 29 H:1216 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:403f X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 29 H:1236 F:20
+c01cf5 lda [$60]     [d1b11d] A:403f X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 29 H:1288 F:20
+c01cf7 inc $60       [000060] A:4043 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 29 H:1330 F:20
+c01cf9 bne $1d01     [c01d01] A:4043 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 30 H:   0 F:20
+c01d01 rts                    A:4043 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 30 H:  18 F:20
+c01cd2 ldx $66       [000066] A:4043 X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H:  58 F:20
+c01cd4 sta $0200,x   [000202] A:4043 X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H:  78 F:20
+c01cd7 inc $66       [000066] A:4043 X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 110 F:20
+c01cd9 dec $65       [000065] A:4043 X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 144 F:20
+c01cdb bne $1ce0     [c01ce0] A:4043 X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 178 F:20
+c01ce0 lda $0200,x   [000202] A:4043 X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 196 F:20
+c01ce3 plx                    A:4043 X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 222 F:20
+c01ce4 rtl                    A:4043 X:0004 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 30 H: 248 F:20
+c00153 sta $a5       [0000a5] A:4043 X:0004 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 30 H: 290 F:20
+c00155 jsl $c01ccc   [c01ccc] A:4043 X:0004 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 30 H: 310 F:20
+c01ccc phx                    A:4043 X:0004 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 30 H: 364 F:20
+c01ccd ldx $64       [000064] A:4043 X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 384 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:4043 X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 30 H: 404 F:20
+c01cf5 lda [$60]     [d1b11e] A:4043 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 30 H: 456 F:20
+c01cf7 inc $60       [000060] A:4044 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 30 H: 498 F:20
+c01cf9 bne $1d01     [c01d01] A:4044 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 30 H: 532 F:20
+c01d01 rts                    A:4044 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 30 H: 590 F:20
+c01cd2 ldx $66       [000066] A:4044 X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 630 F:20
+c01cd4 sta $0200,x   [000203] A:4044 X:0003 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 650 F:20
+c01cd7 inc $66       [000066] A:4044 X:0003 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 682 F:20
+c01cd9 dec $65       [000065] A:4044 X:0003 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 716 F:20
+c01cdb bne $1ce0     [c01ce0] A:4044 X:0003 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 750 F:20
+c01ce0 lda $0200,x   [000203] A:4044 X:0003 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 768 F:20
+c01ce3 plx                    A:4044 X:0003 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 794 F:20
+c01ce4 rtl                    A:4044 X:0004 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 30 H: 820 F:20
+c00159 sta $a6       [0000a6] A:4044 X:0004 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 30 H: 862 F:20
+c0015b jsl $c00497   [c00497] A:4044 X:0004 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 30 H: 882 F:20
+c00497 phx                    A:4044 X:0004 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 30 H: 936 F:20
+c00498 rep #$30               A:4044 X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H: 956 F:20
+c0049a ldx $035b     [00035b] A:4044 X:0004 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 30 H: 974 F:20
+c0049d lda $a5       [0000a5] A:4044 X:1e4e Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 30 H:1008 F:20
+c0049f sta $7e8000,x [7e9e4e] A:4443 X:1e4e Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 30 H:1036 F:20
+c004a3 inx                    A:4443 X:1e4e Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 30 H:1076 F:20
+c004a4 inx                    A:4443 X:1e4f Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 30 H:1088 F:20
+c004a5 stx $035b     [00035b] A:4443 X:1e50 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 30 H:1100 F:20
+c004a8 sep #$30               A:4443 X:1e50 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 30 H:1134 F:20
+c004aa plx                    A:4443 X:0050 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H:1152 F:20
+c004ab rtl                    A:4443 X:0004 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 30 H:1178 F:20
+c0015f dex                    A:4443 X:0004 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 30 H:1220 F:20
+c00160 dex                    A:4443 X:0003 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 30 H:1232 F:20
+c00161 bne $014f     [c0014f] A:4443 X:0002 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 30 H:1244 F:20
+c0014f jsl $c01ccc   [c01ccc] A:4443 X:0002 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 30 H:1262 F:20
+c01ccc phx                    A:4443 X:0002 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 30 H:1316 F:20
+c01ccd ldx $64       [000064] A:4443 X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 30 H:1336 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:4443 X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 30 H:1356 F:20
+c01cf5 lda [$60]     [d1b11f] A:4443 X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 31 H:  44 F:20
+c01cf7 inc $60       [000060] A:443b X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H:  86 F:20
+c01cf9 bne $1d01     [c01d01] A:443b X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 120 F:20
+c01d01 rts                    A:443b X:0000 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 138 F:20
+c01cd2 ldx $66       [000066] A:443b X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H: 178 F:20
+c01cd4 sta $0200,x   [000204] A:443b X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H: 198 F:20
+c01cd7 inc $66       [000066] A:443b X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H: 230 F:20
+c01cd9 dec $65       [000065] A:443b X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H: 264 F:20
+c01cdb bne $1ce0     [c01ce0] A:443b X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 31 H: 298 F:20
+c01cdd jsr $1d45     [c01d45] A:443b X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 31 H: 310 F:20
+c01d45 lda [$60]     [d1b120] A:443b X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdiZc V: 31 H: 350 F:20
+c01d47 sta $64       [000064] A:4422 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 392 F:20
+c01d49 and #$1f               A:4422 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 412 F:20
+c01d4b inc                    A:4402 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 424 F:20
+c01d4c sta $65       [000065] A:4403 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 436 F:20
+c01d4e lda $64       [000064] A:4403 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 456 F:20
+c01d50 lsr a                  A:4422 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 476 F:20
+c01d51 lsr a                  A:4411 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 488 F:20
+c01d52 lsr a                  A:4408 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizC V: 31 H: 500 F:20
+c01d53 lsr a                  A:4404 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 512 F:20
+c01d54 and #$0e               A:4402 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 524 F:20
+c01d56 sta $64       [000064] A:4402 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 576 F:20
+c01d58 inc $60       [000060] A:4402 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 596 F:20
+c01d5a bne $1d62     [c01d62] A:4402 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 630 F:20
+c01d62 rts                    A:4402 X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 648 F:20
+c01ce0 lda $0200,x   [000204] A:4402 X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H: 688 F:20
+c01ce3 plx                    A:443b X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H: 714 F:20
+c01ce4 rtl                    A:443b X:0002 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 31 H: 740 F:20
+c00153 sta $a5       [0000a5] A:443b X:0002 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 31 H: 782 F:20
+c00155 jsl $c01ccc   [c01ccc] A:443b X:0002 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 31 H: 802 F:20
+c01ccc phx                    A:443b X:0002 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 31 H: 856 F:20
+c01ccd ldx $64       [000064] A:443b X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H: 876 F:20
+c01ccf jsr ($1ce5,x) [c01ce7] A:443b X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H: 896 F:20
+c01d02 ldx $66       [000066] A:443b X:0002 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 948 F:20
+c01d04 dex                    A:443b X:0005 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 968 F:20
+c01d05 lda $0200,x   [000204] A:443b X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H: 980 F:20
+c01d08 inc                    A:443b X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H:1006 F:20
+c01d09 rts                    A:443c X:0004 Y:0002 S:01e1 D:0000 DB:00 nvMXdizc V: 31 H:1018 F:20
+c01cd2 ldx $66       [000066] A:443c X:0004 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H:1058 F:20
+c01cd4 sta $0200,x   [000205] A:443c X:0005 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H:1078 F:20
+c01cd7 inc $66       [000066] A:443c X:0005 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H:1110 F:20
+c01cd9 dec $65       [000065] A:443c X:0005 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H:1144 F:20
+c01cdb bne $1ce0     [c01ce0] A:443c X:0005 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H:1178 F:20
+c01ce0 lda $0200,x   [000205] A:443c X:0005 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H:1196 F:20
+c01ce3 plx                    A:443c X:0005 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 31 H:1222 F:20
+c01ce4 rtl                    A:443c X:0002 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 31 H:1248 F:20
+c00159 sta $a6       [0000a6] A:443c X:0002 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 31 H:1290 F:20
+c0015b jsl $c00497   [c00497] A:443c X:0002 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 31 H:1310 F:20
+c00497 phx                    A:443c X:0002 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 32 H:   0 F:20
+c00498 rep #$30               A:443c X:0002 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 32 H:  20 F:20
+c0049a ldx $035b     [00035b] A:443c X:0002 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H:  38 F:20
+c0049d lda $a5       [0000a5] A:443c X:1e50 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H:  72 F:20
+c0049f sta $7e8000,x [7e9e50] A:3c3b X:1e50 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H: 100 F:20
+c004a3 inx                    A:3c3b X:1e50 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H: 140 F:20
+c004a4 inx                    A:3c3b X:1e51 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H: 152 F:20
+c004a5 stx $035b     [00035b] A:3c3b X:1e52 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H: 164 F:20
+c004a8 sep #$30               A:3c3b X:1e52 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H: 198 F:20
+c004aa plx                    A:3c3b X:0052 Y:0002 S:01e3 D:0000 DB:00 nvMXdizc V: 32 H: 216 F:20
+c004ab rtl                    A:3c3b X:0002 Y:0002 S:01e4 D:0000 DB:00 nvMXdizc V: 32 H: 242 F:20
+c0015f dex                    A:3c3b X:0002 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 32 H: 284 F:20
+c00160 dex                    A:3c3b X:0001 Y:0002 S:01e7 D:0000 DB:00 nvMXdizc V: 32 H: 296 F:20
+c00161 bne $014f     [c0014f] A:3c3b X:0000 Y:0002 S:01e7 D:0000 DB:00 nvMXdiZc V: 32 H: 308 F:20
+c00163 jsl $c004ac   [c004ac] A:3c3b X:0000 Y:0002 S:01e7 D:0000 DB:00 nvMXdiZc V: 32 H: 320 F:20
+c004ac phx                    A:3c3b X:0000 Y:0002 S:01e4 D:0000 DB:00 nvMXdiZc V: 32 H: 374 F:20
+c004ad rep #$30               A:3c3b X:0000 Y:0002 S:01e3 D:0000 DB:00 nvMXdiZc V: 32 H: 394 F:20
+c004af ldx $0357     [000357] A:3c3b X:0000 Y:0002 S:01e3 D:0000 DB:00 nvmxdiZc V: 32 H: 412 F:20
+c004b2 lda $035b     [00035b] A:3c3b X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H: 446 F:20
+c004b5 sec                    A:1e52 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizc V: 32 H: 480 F:20
+c004b6 sbc $0357     [000357] A:1e52 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizC V: 32 H: 492 F:20
+c004b9 sbc #$0006             A:000c X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizC V: 32 H: 526 F:20
+c004bc sta $7e8002,x [7e9e48] A:0006 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizC V: 32 H: 584 F:20
+c004c0 lda $035b     [00035b] A:0006 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizC V: 32 H: 624 F:20
+c004c3 and #$3fff             A:1e52 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizC V: 32 H: 658 F:20
+c004c6 sta $0357     [000357] A:1e52 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizC V: 32 H: 676 F:20
+c004c9 sep #$30               A:1e52 X:1e46 Y:0002 S:01e3 D:0000 DB:00 nvmxdizC V: 32 H: 710 F:20
+c004cb plx                    A:1e52 X:0046 Y:0002 S:01e3 D:0000 DB:00 nvMXdizC V: 32 H: 728 F:20
+c004cc rtl                    A:1e52 X:0000 Y:0002 S:01e4 D:0000 DB:00 nvMXdiZC V: 32 H: 754 F:20
+c00167 inc $1d2a     [001d2a] A:1e52 X:0000 Y:0002 S:01e7 D:0000 DB:00 nvMXdiZC V: 32 H: 796 F:20
+c0016a dey                    A:1e52 X:0000 Y:0002 S:01e7 D:0000 DB:00 nvMXdizC V: 32 H: 836 F:20
+c0016b bne $013c     [c0013c] A:1e52 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdizC V: 32 H: 848 F:20
+c0013c jsl $c008e0   [c008e0] A:1e52 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdizC V: 32 H: 866 F:20
+c008e0 lda $1d28     [001d28] A:1e52 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizC V: 32 H: 920 F:20
+c008e3 sta $b1       [0000b1] A:1e16 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizC V: 32 H: 946 F:20
+c008e5 lda $1d2a     [001d2a] A:1e16 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizC V: 32 H: 966 F:20
+c008e8 sta $b3       [0000b3] A:1e07 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizC V: 32 H: 992 F:20
+c008ea jsr $0906     [c00906] A:1e07 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizC V: 32 H:1012 F:20
+c00906 phy                    A:1e07 X:0000 Y:0001 S:01e2 D:0000 DB:00 nvMXdizC V: 32 H:1052 F:20
+c00907 lda $0372     [000372] A:1e07 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizC V: 32 H:1072 F:20
+c0090a beq $0915     [c00915] A:1e00 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZC V: 32 H:1098 F:20
+c00915 sta $b5       [0000b5] A:1e00 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZC V: 32 H:1116 F:20
+c00917 stz $b2       [0000b2] A:1e00 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZC V: 32 H:1136 F:20
+c00919 stz $b4       [0000b4] A:1e00 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZC V: 32 H:1156 F:20
+c0091b lda $b1       [0000b1] A:1e00 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZC V: 32 H:1176 F:20
+c0091d clc                    A:1e16 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizC V: 32 H:1196 F:20
+c0091e adc $036c     [00036c] A:1e16 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 32 H:1208 F:20
+c00921 and #$7f               A:1e16 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 32 H:1234 F:20
+c00923 ldy $b5       [0000b5] A:1e16 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 32 H:1246 F:20
+c00925 bne $0929     [c00929] A:1e16 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdiZc V: 32 H:1266 F:20
+c00927 and #$3f               A:1e16 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdiZc V: 32 H:1278 F:20
+c00929 sta $b1       [0000b1] A:1e16 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 32 H:1290 F:20
+c0092b lda $b3       [0000b3] A:1e16 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 32 H:1310 F:20
+c0092d clc                    A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 32 H:1330 F:20
+c0092e adc $036d     [00036d] A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 32 H:1342 F:20
+c00931 and #$7f               A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 33 H:   4 F:20
+c00933 ldy $b5       [0000b5] A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 33 H:  16 F:20
+c00935 bne $0939     [c00939] A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdiZc V: 33 H:  36 F:20
+c00937 and #$1f               A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdiZc V: 33 H:  48 F:20
+c00939 sta $b3       [0000b3] A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 33 H:  60 F:20
+c0093b rep #$20               A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 33 H:  80 F:20
+c0093d ldy $b5       [0000b5] A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H:  98 F:20
+c0093f bne $0956     [c00956] A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 118 F:20
+c00941 lda $b1       [0000b1] A:1e07 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 130 F:20
+c00943 and #$0020             A:0016 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 158 F:20
+c00946 asl a                  A:0000 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 176 F:20
+c00947 asl a                  A:0000 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 188 F:20
+c00948 asl a                  A:0000 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 200 F:20
+c00949 asl a                  A:0000 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 212 F:20
+c0094a asl a                  A:0000 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 224 F:20
+c0094b sta $9f       [00009f] A:0000 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 236 F:20
+c0094d lda $b1       [0000b1] A:0000 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 264 F:20
+c0094f and #$001f             A:0016 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 292 F:20
+c00952 ora $9f       [00009f] A:0016 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 310 F:20
+c00954 sta $b1       [0000b1] A:0016 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 338 F:20
+c00956 lda $b3       [0000b3] A:0016 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 366 F:20
+c00958 asl a                  A:0007 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 394 F:20
+c00959 asl a                  A:000e X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 406 F:20
+c0095a asl a                  A:001c X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 418 F:20
+c0095b asl a                  A:0038 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 430 F:20
+c0095c asl a                  A:0070 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 442 F:20
+c0095d ldy $b5       [0000b5] A:00e0 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 454 F:20
+c0095f beq $0963     [c00963] A:00e0 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 474 F:20
+c00963 ora $b1       [0000b1] A:00e0 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 492 F:20
+c00965 ldy $0372     [000372] A:00f6 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 520 F:20
+c00968 bne $096e     [c0096e] A:00f6 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 586 F:20
+c0096a clc                    A:00f6 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 598 F:20
+c0096b adc $036f     [00036f] A:00f6 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdiZc V: 33 H: 610 F:20
+c0096e sep #$20               A:30f6 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvmXdizc V: 33 H: 644 F:20
+c00970 ply                    A:30f6 X:0000 Y:0000 S:01e1 D:0000 DB:00 nvMXdizc V: 33 H: 662 F:20
+c00971 rts                    A:30f6 X:0000 Y:0001 S:01e2 D:0000 DB:00 nvMXdizc V: 33 H: 688 F:20
+c008ed sta $08       [000008] A:30f6 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 33 H: 728 F:20
+c008ef xba                    A:30f6 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 33 H: 748 F:20
+c008f0 sta $09       [000009] A:f630 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 33 H: 766 F:20
+c008f2 rtl                    A:f630 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 33 H: 786 F:20
+c00140 rep #$20               A:f630 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 33 H: 828 F:20
+c00142 lda $08       [000008] A:f630 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvmXdizc V: 33 H: 846 F:20
+c00144 sta $ae       [0000ae] A:30f6 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvmXdizc V: 33 H: 874 F:20
+c00146 sep #$20               A:30f6 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvmXdizc V: 33 H: 902 F:20
+c00148 jsl $c00478   [c00478] A:30f6 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 33 H: 920 F:20
+c00478 phx                    A:30f6 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 33 H: 974 F:20
+c00479 rep #$30               A:30f6 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 33 H: 994 F:20
+c0047b ldx $0357     [000357] A:30f6 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 33 H:1012 F:20
+c0047e lda $ae       [0000ae] A:30f6 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 33 H:1046 F:20
+c00480 sta $7e8004,x [7e9e56] A:30f6 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 33 H:1074 F:20
+c00484 lda $0352     [000352] A:30f6 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 33 H:1114 F:20
+c00487 sta $7e8000,x [7e9e52] A:0000 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdiZc V: 33 H:1148 F:20
+c0048b txa                    A:0000 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdiZc V: 33 H:1188 F:20
+c0048c clc                    A:1e52 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 33 H:1200 F:20
+c0048d adc #$0006             A:1e52 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 33 H:1212 F:20
+c00490 sta $035b     [00035b] A:1e58 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 33 H:1230 F:20
+c00493 sep #$30               A:1e58 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 33 H:1264 F:20
+c00495 plx                    A:1e58 X:0052 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 33 H:1282 F:20
+c00496 rtl                    A:1e58 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdiZc V: 33 H:1308 F:20
+c0014c ldx $1d34     [001d34] A:1e58 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdiZc V: 33 H:1350 F:20
+c0014f jsl $c01ccc   [c01ccc] A:1e58 X:0006 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 34 H:  12 F:20
+c01ccc phx                    A:1e58 X:0006 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 34 H:  66 F:20
+c01ccd ldx $64       [000064] A:1e58 X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H:  86 F:20
+c01ccf jsr ($1ce5,x) [c01ce7] A:1e58 X:0002 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 106 F:20
+c01d02 ldx $66       [000066] A:1e58 X:0002 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 158 F:20
+c01d04 dex                    A:1e58 X:0006 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 178 F:20
+c01d05 lda $0200,x   [000205] A:1e58 X:0005 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 190 F:20
+c01d08 inc                    A:1e3c X:0005 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 216 F:20
+c01d09 rts                    A:1e3d X:0005 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 228 F:20
+c01cd2 ldx $66       [000066] A:1e3d X:0005 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 268 F:20
+c01cd4 sta $0200,x   [000206] A:1e3d X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 288 F:20
+c01cd7 inc $66       [000066] A:1e3d X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 320 F:20
+c01cd9 dec $65       [000065] A:1e3d X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 354 F:20
+c01cdb bne $1ce0     [c01ce0] A:1e3d X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 388 F:20
+c01ce0 lda $0200,x   [000206] A:1e3d X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 406 F:20
+c01ce3 plx                    A:1e3d X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 432 F:20
+c01ce4 rtl                    A:1e3d X:0006 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 34 H: 458 F:20
+c00153 sta $a5       [0000a5] A:1e3d X:0006 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 34 H: 500 F:20
+c00155 jsl $c01ccc   [c01ccc] A:1e3d X:0006 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 34 H: 520 F:20
+c01ccc phx                    A:1e3d X:0006 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 34 H: 614 F:20
+c01ccd ldx $64       [000064] A:1e3d X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 634 F:20
+c01ccf jsr ($1ce5,x) [c01ce7] A:1e3d X:0002 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 654 F:20
+c01d02 ldx $66       [000066] A:1e3d X:0002 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 706 F:20
+c01d04 dex                    A:1e3d X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 726 F:20
+c01d05 lda $0200,x   [000206] A:1e3d X:0006 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 738 F:20
+c01d08 inc                    A:1e3d X:0006 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 764 F:20
+c01d09 rts                    A:1e3e X:0006 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H: 776 F:20
+c01cd2 ldx $66       [000066] A:1e3e X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 816 F:20
+c01cd4 sta $0200,x   [000207] A:1e3e X:0007 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 836 F:20
+c01cd7 inc $66       [000066] A:1e3e X:0007 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 868 F:20
+c01cd9 dec $65       [000065] A:1e3e X:0007 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H: 902 F:20
+c01cdb bne $1ce0     [c01ce0] A:1e3e X:0007 Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 34 H: 936 F:20
+c01cdd jsr $1d45     [c01d45] A:1e3e X:0007 Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 34 H: 948 F:20
+c01d45 lda [$60]     [d1b121] A:1e3e X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 34 H: 988 F:20
+c01d47 sta $64       [000064] A:1e03 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H:1030 F:20
+c01d49 and #$1f               A:1e03 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H:1050 F:20
+c01d4b inc                    A:1e03 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H:1062 F:20
+c01d4c sta $65       [000065] A:1e04 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H:1074 F:20
+c01d4e lda $64       [000064] A:1e04 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H:1094 F:20
+c01d50 lsr a                  A:1e03 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H:1114 F:20
+c01d51 lsr a                  A:1e01 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizC V: 34 H:1126 F:20
+c01d52 lsr a                  A:1e00 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZC V: 34 H:1138 F:20
+c01d53 lsr a                  A:1e00 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 34 H:1150 F:20
+c01d54 and #$0e               A:1e00 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 34 H:1162 F:20
+c01d56 sta $64       [000064] A:1e00 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 34 H:1174 F:20
+c01d58 inc $60       [000060] A:1e00 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 34 H:1194 F:20
+c01d5a bne $1d62     [c01d62] A:1e00 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H:1228 F:20
+c01d62 rts                    A:1e00 X:0007 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 34 H:1246 F:20
+c01ce0 lda $0200,x   [000207] A:1e00 X:0007 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H:1286 F:20
+c01ce3 plx                    A:1e3e X:0007 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 34 H:1312 F:20
+c01ce4 rtl                    A:1e3e X:0006 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 34 H:1338 F:20
+c00159 sta $a6       [0000a6] A:1e3e X:0006 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 35 H:  16 F:20
+c0015b jsl $c00497   [c00497] A:1e3e X:0006 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 35 H:  36 F:20
+c00497 phx                    A:1e3e X:0006 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 35 H:  90 F:20
+c00498 rep #$30               A:1e3e X:0006 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 110 F:20
+c0049a ldx $035b     [00035b] A:1e3e X:0006 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 35 H: 128 F:20
+c0049d lda $a5       [0000a5] A:1e3e X:1e58 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 35 H: 162 F:20
+c0049f sta $7e8000,x [7e9e58] A:3e3d X:1e58 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 35 H: 190 F:20
+c004a3 inx                    A:3e3d X:1e58 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 35 H: 230 F:20
+c004a4 inx                    A:3e3d X:1e59 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 35 H: 242 F:20
+c004a5 stx $035b     [00035b] A:3e3d X:1e5a Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 35 H: 254 F:20
+c004a8 sep #$30               A:3e3d X:1e5a Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 35 H: 288 F:20
+c004aa plx                    A:3e3d X:005a Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 306 F:20
+c004ab rtl                    A:3e3d X:0006 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 35 H: 332 F:20
+c0015f dex                    A:3e3d X:0006 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 35 H: 374 F:20
+c00160 dex                    A:3e3d X:0005 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 35 H: 386 F:20
+c00161 bne $014f     [c0014f] A:3e3d X:0004 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 35 H: 398 F:20
+c0014f jsl $c01ccc   [c01ccc] A:3e3d X:0004 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 35 H: 416 F:20
+c01ccc phx                    A:3e3d X:0004 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 35 H: 470 F:20
+c01ccd ldx $64       [000064] A:3e3d X:0004 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 490 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:3e3d X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 35 H: 510 F:20
+c01cf5 lda [$60]     [d1b122] A:3e3d X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 35 H: 602 F:20
+c01cf7 inc $60       [000060] A:3e41 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 35 H: 644 F:20
+c01cf9 bne $1d01     [c01d01] A:3e41 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 35 H: 678 F:20
+c01d01 rts                    A:3e41 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 35 H: 696 F:20
+c01cd2 ldx $66       [000066] A:3e41 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 736 F:20
+c01cd4 sta $0200,x   [000208] A:3e41 X:0008 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 756 F:20
+c01cd7 inc $66       [000066] A:3e41 X:0008 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 788 F:20
+c01cd9 dec $65       [000065] A:3e41 X:0008 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 822 F:20
+c01cdb bne $1ce0     [c01ce0] A:3e41 X:0008 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 856 F:20
+c01ce0 lda $0200,x   [000208] A:3e41 X:0008 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 874 F:20
+c01ce3 plx                    A:3e41 X:0008 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H: 900 F:20
+c01ce4 rtl                    A:3e41 X:0004 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 35 H: 926 F:20
+c00153 sta $a5       [0000a5] A:3e41 X:0004 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 35 H: 968 F:20
+c00155 jsl $c01ccc   [c01ccc] A:3e41 X:0004 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 35 H: 988 F:20
+c01ccc phx                    A:3e41 X:0004 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 35 H:1042 F:20
+c01ccd ldx $64       [000064] A:3e41 X:0004 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H:1062 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:3e41 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 35 H:1082 F:20
+c01cf5 lda [$60]     [d1b123] A:3e41 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 35 H:1134 F:20
+c01cf7 inc $60       [000060] A:3e42 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 35 H:1176 F:20
+c01cf9 bne $1d01     [c01d01] A:3e42 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 35 H:1210 F:20
+c01d01 rts                    A:3e42 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 35 H:1228 F:20
+c01cd2 ldx $66       [000066] A:3e42 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H:1268 F:20
+c01cd4 sta $0200,x   [000209] A:3e42 X:0009 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H:1288 F:20
+c01cd7 inc $66       [000066] A:3e42 X:0009 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H:1320 F:20
+c01cd9 dec $65       [000065] A:3e42 X:0009 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 35 H:1354 F:20
+c01cdb bne $1ce0     [c01ce0] A:3e42 X:0009 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H:  24 F:20
+c01ce0 lda $0200,x   [000209] A:3e42 X:0009 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H:  42 F:20
+c01ce3 plx                    A:3e42 X:0009 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H:  68 F:20
+c01ce4 rtl                    A:3e42 X:0004 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 36 H:  94 F:20
+c00159 sta $a6       [0000a6] A:3e42 X:0004 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 36 H: 136 F:20
+c0015b jsl $c00497   [c00497] A:3e42 X:0004 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 36 H: 156 F:20
+c00497 phx                    A:3e42 X:0004 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 36 H: 210 F:20
+c00498 rep #$30               A:3e42 X:0004 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 230 F:20
+c0049a ldx $035b     [00035b] A:3e42 X:0004 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 36 H: 248 F:20
+c0049d lda $a5       [0000a5] A:3e42 X:1e5a Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 36 H: 282 F:20
+c0049f sta $7e8000,x [7e9e5a] A:4241 X:1e5a Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 36 H: 310 F:20
+c004a3 inx                    A:4241 X:1e5a Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 36 H: 350 F:20
+c004a4 inx                    A:4241 X:1e5b Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 36 H: 362 F:20
+c004a5 stx $035b     [00035b] A:4241 X:1e5c Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 36 H: 374 F:20
+c004a8 sep #$30               A:4241 X:1e5c Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 36 H: 408 F:20
+c004aa plx                    A:4241 X:005c Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 426 F:20
+c004ab rtl                    A:4241 X:0004 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 36 H: 452 F:20
+c0015f dex                    A:4241 X:0004 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 36 H: 494 F:20
+c00160 dex                    A:4241 X:0003 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 36 H: 506 F:20
+c00161 bne $014f     [c0014f] A:4241 X:0002 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 36 H: 518 F:20
+c0014f jsl $c01ccc   [c01ccc] A:4241 X:0002 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 36 H: 536 F:20
+c01ccc phx                    A:4241 X:0002 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 36 H: 630 F:20
+c01ccd ldx $64       [000064] A:4241 X:0002 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 650 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:4241 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 36 H: 670 F:20
+c01cf5 lda [$60]     [d1b124] A:4241 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 36 H: 722 F:20
+c01cf7 inc $60       [000060] A:4239 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 36 H: 764 F:20
+c01cf9 bne $1d01     [c01d01] A:4239 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 36 H: 798 F:20
+c01d01 rts                    A:4239 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 36 H: 816 F:20
+c01cd2 ldx $66       [000066] A:4239 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 856 F:20
+c01cd4 sta $0200,x   [00020a] A:4239 X:000a Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 876 F:20
+c01cd7 inc $66       [000066] A:4239 X:000a Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 908 F:20
+c01cd9 dec $65       [000065] A:4239 X:000a Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 942 F:20
+c01cdb bne $1ce0     [c01ce0] A:4239 X:000a Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 976 F:20
+c01ce0 lda $0200,x   [00020a] A:4239 X:000a Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H: 994 F:20
+c01ce3 plx                    A:4239 X:000a Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H:1020 F:20
+c01ce4 rtl                    A:4239 X:0002 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 36 H:1046 F:20
+c00153 sta $a5       [0000a5] A:4239 X:0002 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 36 H:1088 F:20
+c00155 jsl $c01ccc   [c01ccc] A:4239 X:0002 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 36 H:1108 F:20
+c01ccc phx                    A:4239 X:0002 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 36 H:1162 F:20
+c01ccd ldx $64       [000064] A:4239 X:0002 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 36 H:1182 F:20
+c01ccf jsr ($1ce5,x) [c01ce5] A:4239 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 36 H:1202 F:20
+c01cf5 lda [$60]     [d1b125] A:4239 X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 36 H:1254 F:20
+c01cf7 inc $60       [000060] A:423a X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 36 H:1296 F:20
+c01cf9 bne $1d01     [c01d01] A:423a X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 36 H:1330 F:20
+c01d01 rts                    A:423a X:0000 Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 36 H:1348 F:20
+c01cd2 ldx $66       [000066] A:423a X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 37 H:  24 F:20
+c01cd4 sta $0200,x   [00020b] A:423a X:000b Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 37 H:  44 F:20
+c01cd7 inc $66       [000066] A:423a X:000b Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 37 H:  76 F:20
+c01cd9 dec $65       [000065] A:423a X:000b Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 37 H: 110 F:20
+c01cdb bne $1ce0     [c01ce0] A:423a X:000b Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 37 H: 144 F:20
+c01cdd jsr $1d45     [c01d45] A:423a X:000b Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 37 H: 156 F:20
+c01d45 lda [$60]     [d1b126] A:423a X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 196 F:20
+c01d47 sta $64       [000064] A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 238 F:20
+c01d49 and #$1f               A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 258 F:20
+c01d4b inc                    A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 270 F:20
+c01d4c sta $65       [000065] A:4201 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 37 H: 282 F:20
+c01d4e lda $64       [000064] A:4201 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 37 H: 302 F:20
+c01d50 lsr a                  A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 322 F:20
+c01d51 lsr a                  A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 334 F:20
+c01d52 lsr a                  A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 346 F:20
+c01d53 lsr a                  A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 358 F:20
+c01d54 and #$0e               A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 370 F:20
+c01d56 sta $64       [000064] A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 382 F:20
+c01d58 inc $60       [000060] A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdiZc V: 37 H: 402 F:20
+c01d5a bne $1d62     [c01d62] A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 37 H: 436 F:20
+c01d62 rts                    A:4200 X:000b Y:0001 S:01e1 D:0000 DB:00 nvMXdizc V: 37 H: 454 F:20
+c01ce0 lda $0200,x   [00020b] A:4200 X:000b Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 37 H: 494 F:20
+c01ce3 plx                    A:423a X:000b Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 37 H: 520 F:20
+c01ce4 rtl                    A:423a X:0002 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 37 H: 586 F:20
+c00159 sta $a6       [0000a6] A:423a X:0002 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 37 H: 628 F:20
+c0015b jsl $c00497   [c00497] A:423a X:0002 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 37 H: 648 F:20
+c00497 phx                    A:423a X:0002 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 37 H: 702 F:20
+c00498 rep #$30               A:423a X:0002 Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 37 H: 722 F:20
+c0049a ldx $035b     [00035b] A:423a X:0002 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H: 740 F:20
+c0049d lda $a5       [0000a5] A:423a X:1e5c Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H: 774 F:20
+c0049f sta $7e8000,x [7e9e5c] A:3a39 X:1e5c Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H: 802 F:20
+c004a3 inx                    A:3a39 X:1e5c Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H: 842 F:20
+c004a4 inx                    A:3a39 X:1e5d Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H: 854 F:20
+c004a5 stx $035b     [00035b] A:3a39 X:1e5e Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H: 866 F:20
+c004a8 sep #$30               A:3a39 X:1e5e Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H: 900 F:20
+c004aa plx                    A:3a39 X:005e Y:0001 S:01e3 D:0000 DB:00 nvMXdizc V: 37 H: 918 F:20
+c004ab rtl                    A:3a39 X:0002 Y:0001 S:01e4 D:0000 DB:00 nvMXdizc V: 37 H: 944 F:20
+c0015f dex                    A:3a39 X:0002 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 37 H: 986 F:20
+c00160 dex                    A:3a39 X:0001 Y:0001 S:01e7 D:0000 DB:00 nvMXdizc V: 37 H: 998 F:20
+c00161 bne $014f     [c0014f] A:3a39 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdiZc V: 37 H:1010 F:20
+c00163 jsl $c004ac   [c004ac] A:3a39 X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdiZc V: 37 H:1022 F:20
+c004ac phx                    A:3a39 X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdiZc V: 37 H:1076 F:20
+c004ad rep #$30               A:3a39 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvMXdiZc V: 37 H:1096 F:20
+c004af ldx $0357     [000357] A:3a39 X:0000 Y:0001 S:01e3 D:0000 DB:00 nvmxdiZc V: 37 H:1114 F:20
+c004b2 lda $035b     [00035b] A:3a39 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H:1148 F:20
+c004b5 sec                    A:1e5e X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizc V: 37 H:1182 F:20
+c004b6 sbc $0357     [000357] A:1e5e X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizC V: 37 H:1194 F:20
+c004b9 sbc #$0006             A:000c X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizC V: 37 H:1228 F:20
+c004bc sta $7e8002,x [7e9e54] A:0006 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizC V: 37 H:1246 F:20
+c004c0 lda $035b     [00035b] A:0006 X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizC V: 37 H:1286 F:20
+c004c3 and #$3fff             A:1e5e X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizC V: 37 H:1320 F:20
+c004c6 sta $0357     [000357] A:1e5e X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizC V: 37 H:1338 F:20
+c004c9 sep #$30               A:1e5e X:1e52 Y:0001 S:01e3 D:0000 DB:00 nvmxdizC V: 38 H:   8 F:20
+c004cb plx                    A:1e5e X:0052 Y:0001 S:01e3 D:0000 DB:00 nvMXdizC V: 38 H:  26 F:20
+c004cc rtl                    A:1e5e X:0000 Y:0001 S:01e4 D:0000 DB:00 nvMXdiZC V: 38 H:  52 F:20
+c00167 inc $1d2a     [001d2a] A:1e5e X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdiZC V: 38 H:  94 F:20
+c0016a dey                    A:1e5e X:0000 Y:0001 S:01e7 D:0000 DB:00 nvMXdizC V: 38 H: 134 F:20
+c0016b bne $013c     [c0013c] A:1e5e X:0000 Y:0000 S:01e7 D:0000 DB:00 nvMXdiZC V: 38 H: 146 F:20
+c0016d pla                    A:1e5e X:0000 Y:0000 S:01e7 D:0000 DB:00 nvMXdiZC V: 38 H: 158 F:20
+c0016e sta $1d2a     [001d2a] A:1e06 X:0000 Y:0000 S:01e8 D:0000 DB:00 nvMXdizC V: 38 H: 184 F:20
+c00171 rts                    A:1e06 X:0000 Y:0000 S:01e8 D:0000 DB:00 nvMXdizC V: 38 H: 210 F:20
+c000f4 lda $0342     [000342] A:1e06 X:0000 Y:0000 S:01ea D:0000 DB:00 nvMXdizC V: 38 H: 250 F:20
+c000f7 bne $0109     [c00109] A:1e00 X:0000 Y:0000 S:01ea D:0000 DB:00 nvMXdiZC V: 38 H: 276 F:20
+c000f9 lda #$80               A:1e00 X:0000 Y:0000 S:01ea D:0000 DB:00 nvMXdiZC V: 38 H: 288 F:20
+c000fb sta $0352     [000352] A:1e80 X:0000 Y:0000 S:01ea D:0000 DB:00 NvMXdizC V: 38 H: 300 F:20
+c000fe jsl $c01d63   [c01d63] A:1e80 X:0000 Y:0000 S:01ea D:0000 DB:00 NvMXdizC V: 38 H: 326 F:20
+c01d63 sec                    A:1e80 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvMXdizC V: 38 H: 380 F:20
+c01d64 rep #$20               A:1e80 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvMXdizC V: 38 H: 392 F:20
+c01d66 lda $60       [000060] A:1e80 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvmXdizC V: 38 H: 410 F:20
+c01d68 sbc #$0001             A:b127 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvmXdizC V: 38 H: 438 F:20
+c01d6b sta $a5       [0000a5] A:b126 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvmXdizC V: 38 H: 456 F:20
+c01d6d sep #$20               A:b126 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvmXdizC V: 38 H: 484 F:20
+c01d6f lda $62       [000062] A:b126 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvMXdizC V: 38 H: 502 F:20
+c01d71 sbc #$00               A:b1d1 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvMXdizC V: 38 H: 522 F:20
+c01d73 sta $a7       [0000a7] A:b1d1 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvMXdizC V: 38 H: 534 F:20
+c01d75 rtl                    A:b1d1 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvMXdizC V: 38 H: 594 F:20
+c00102 jsl $c01cb0   [c01cb0] A:b1d1 X:0000 Y:0000 S:01ea D:0000 DB:00 NvMXdizC V: 38 H: 636 F:20
+c01cb0 phx                    A:b1d1 X:0000 Y:0000 S:01e7 D:0000 DB:00 NvMXdizC V: 38 H: 690 F:20
+c01cb1 rep #$20               A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 38 H: 710 F:20
+c01cb3 lda $a5       [0000a5] A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 NvmXdizC V: 38 H: 728 F:20
+c01cb5 sta $60       [000060] A:b126 X:0000 Y:0000 S:01e6 D:0000 DB:00 NvmXdizC V: 38 H: 756 F:20
+c01cb7 sep #$20               A:b126 X:0000 Y:0000 S:01e6 D:0000 DB:00 NvmXdizC V: 38 H: 784 F:20
+c01cb9 lda $a7       [0000a7] A:b126 X:0000 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 38 H: 802 F:20
+c01cbb sta $62       [000062] A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 38 H: 822 F:20
+c01cbd ldx #$00               A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 38 H: 842 F:20
+c01cbf stz $0200,x   [000200] A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 nvMXdiZC V: 38 H: 854 F:20
+c01cc2 inx                    A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 nvMXdiZC V: 38 H: 886 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0001 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H: 898 F:20
+c01cbf stz $0200,x   [000201] A:b1d1 X:0001 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H: 916 F:20
+c01cc2 inx                    A:b1d1 X:0001 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H: 948 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0002 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H: 960 F:20
+c01cbf stz $0200,x   [000202] A:b1d1 X:0002 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H: 978 F:20
+c01cc2 inx                    A:b1d1 X:0002 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1010 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0003 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1022 F:20
+c01cbf stz $0200,x   [000203] A:b1d1 X:0003 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1040 F:20
+c01cc2 inx                    A:b1d1 X:0003 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1072 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0004 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1084 F:20
+c01cbf stz $0200,x   [000204] A:b1d1 X:0004 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1102 F:20
+c01cc2 inx                    A:b1d1 X:0004 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1134 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0005 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1146 F:20
+c01cbf stz $0200,x   [000205] A:b1d1 X:0005 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1164 F:20
+c01cc2 inx                    A:b1d1 X:0005 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1196 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0006 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1208 F:20
+c01cbf stz $0200,x   [000206] A:b1d1 X:0006 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1226 F:20
+c01cc2 inx                    A:b1d1 X:0006 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1258 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0007 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1270 F:20
+c01cbf stz $0200,x   [000207] A:b1d1 X:0007 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1288 F:20
+c01cc2 inx                    A:b1d1 X:0007 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1320 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0008 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1332 F:20
+c01cbf stz $0200,x   [000208] A:b1d1 X:0008 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 38 H:1350 F:20
+c01cc2 inx                    A:b1d1 X:0008 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:  18 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0009 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:  30 F:20
+c01cbf stz $0200,x   [000209] A:b1d1 X:0009 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:  48 F:20
+c01cc2 inx                    A:b1d1 X:0009 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:  80 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:000a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:  92 F:20
+c01cbf stz $0200,x   [00020a] A:b1d1 X:000a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 110 F:20
+c01cc2 inx                    A:b1d1 X:000a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 142 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:000b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 154 F:20
+c01cbf stz $0200,x   [00020b] A:b1d1 X:000b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 172 F:20
+c01cc2 inx                    A:b1d1 X:000b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 204 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:000c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 216 F:20
+c01cbf stz $0200,x   [00020c] A:b1d1 X:000c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 234 F:20
+c01cc2 inx                    A:b1d1 X:000c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 266 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:000d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 278 F:20
+c01cbf stz $0200,x   [00020d] A:b1d1 X:000d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 296 F:20
+c01cc2 inx                    A:b1d1 X:000d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 328 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:000e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 340 F:20
+c01cbf stz $0200,x   [00020e] A:b1d1 X:000e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 358 F:20
+c01cc2 inx                    A:b1d1 X:000e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 390 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:000f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 402 F:20
+c01cbf stz $0200,x   [00020f] A:b1d1 X:000f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 420 F:20
+c01cc2 inx                    A:b1d1 X:000f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 452 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0010 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 464 F:20
+c01cbf stz $0200,x   [000210] A:b1d1 X:0010 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 482 F:20
+c01cc2 inx                    A:b1d1 X:0010 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 514 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0011 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 526 F:20
+c01cbf stz $0200,x   [000211] A:b1d1 X:0011 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 584 F:20
+c01cc2 inx                    A:b1d1 X:0011 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 616 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0012 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 628 F:20
+c01cbf stz $0200,x   [000212] A:b1d1 X:0012 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 646 F:20
+c01cc2 inx                    A:b1d1 X:0012 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 678 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0013 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 690 F:20
+c01cbf stz $0200,x   [000213] A:b1d1 X:0013 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 708 F:20
+c01cc2 inx                    A:b1d1 X:0013 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 740 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0014 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 752 F:20
+c01cbf stz $0200,x   [000214] A:b1d1 X:0014 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 770 F:20
+c01cc2 inx                    A:b1d1 X:0014 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 802 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0015 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 814 F:20
+c01cbf stz $0200,x   [000215] A:b1d1 X:0015 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 832 F:20
+c01cc2 inx                    A:b1d1 X:0015 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 864 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0016 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 876 F:20
+c01cbf stz $0200,x   [000216] A:b1d1 X:0016 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 894 F:20
+c01cc2 inx                    A:b1d1 X:0016 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 926 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0017 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 938 F:20
+c01cbf stz $0200,x   [000217] A:b1d1 X:0017 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 956 F:20
+c01cc2 inx                    A:b1d1 X:0017 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H: 988 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0018 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1000 F:20
+c01cbf stz $0200,x   [000218] A:b1d1 X:0018 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1018 F:20
+c01cc2 inx                    A:b1d1 X:0018 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1050 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0019 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1062 F:20
+c01cbf stz $0200,x   [000219] A:b1d1 X:0019 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1080 F:20
+c01cc2 inx                    A:b1d1 X:0019 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1112 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:001a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1124 F:20
+c01cbf stz $0200,x   [00021a] A:b1d1 X:001a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1142 F:20
+c01cc2 inx                    A:b1d1 X:001a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1174 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:001b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1186 F:20
+c01cbf stz $0200,x   [00021b] A:b1d1 X:001b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1204 F:20
+c01cc2 inx                    A:b1d1 X:001b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1236 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:001c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1248 F:20
+c01cbf stz $0200,x   [00021c] A:b1d1 X:001c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1266 F:20
+c01cc2 inx                    A:b1d1 X:001c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1298 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:001d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1310 F:20
+c01cbf stz $0200,x   [00021d] A:b1d1 X:001d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1328 F:20
+c01cc2 inx                    A:b1d1 X:001d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 39 H:1360 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:001e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:   8 F:20
+c01cbf stz $0200,x   [00021e] A:b1d1 X:001e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:  26 F:20
+c01cc2 inx                    A:b1d1 X:001e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:  58 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:001f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:  70 F:20
+c01cbf stz $0200,x   [00021f] A:b1d1 X:001f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:  88 F:20
+c01cc2 inx                    A:b1d1 X:001f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 120 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0020 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 132 F:20
+c01cbf stz $0200,x   [000220] A:b1d1 X:0020 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 150 F:20
+c01cc2 inx                    A:b1d1 X:0020 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 182 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0021 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 194 F:20
+c01cbf stz $0200,x   [000221] A:b1d1 X:0021 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 212 F:20
+c01cc2 inx                    A:b1d1 X:0021 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 244 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0022 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 256 F:20
+c01cbf stz $0200,x   [000222] A:b1d1 X:0022 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 274 F:20
+c01cc2 inx                    A:b1d1 X:0022 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 306 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0023 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 318 F:20
+c01cbf stz $0200,x   [000223] A:b1d1 X:0023 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 336 F:20
+c01cc2 inx                    A:b1d1 X:0023 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 368 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0024 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 380 F:20
+c01cbf stz $0200,x   [000224] A:b1d1 X:0024 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 398 F:20
+c01cc2 inx                    A:b1d1 X:0024 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 430 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0025 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 442 F:20
+c01cbf stz $0200,x   [000225] A:b1d1 X:0025 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 460 F:20
+c01cc2 inx                    A:b1d1 X:0025 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 492 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0026 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 504 F:20
+c01cbf stz $0200,x   [000226] A:b1d1 X:0026 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 522 F:20
+c01cc2 inx                    A:b1d1 X:0026 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 594 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0027 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 606 F:20
+c01cbf stz $0200,x   [000227] A:b1d1 X:0027 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 624 F:20
+c01cc2 inx                    A:b1d1 X:0027 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 656 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0028 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 668 F:20
+c01cbf stz $0200,x   [000228] A:b1d1 X:0028 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 686 F:20
+c01cc2 inx                    A:b1d1 X:0028 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 718 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0029 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 730 F:20
+c01cbf stz $0200,x   [000229] A:b1d1 X:0029 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 748 F:20
+c01cc2 inx                    A:b1d1 X:0029 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 780 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:002a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 792 F:20
+c01cbf stz $0200,x   [00022a] A:b1d1 X:002a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 810 F:20
+c01cc2 inx                    A:b1d1 X:002a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 842 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:002b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 854 F:20
+c01cbf stz $0200,x   [00022b] A:b1d1 X:002b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 872 F:20
+c01cc2 inx                    A:b1d1 X:002b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 904 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:002c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 916 F:20
+c01cbf stz $0200,x   [00022c] A:b1d1 X:002c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 934 F:20
+c01cc2 inx                    A:b1d1 X:002c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 966 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:002d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 978 F:20
+c01cbf stz $0200,x   [00022d] A:b1d1 X:002d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H: 996 F:20
+c01cc2 inx                    A:b1d1 X:002d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1028 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:002e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1040 F:20
+c01cbf stz $0200,x   [00022e] A:b1d1 X:002e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1058 F:20
+c01cc2 inx                    A:b1d1 X:002e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1090 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:002f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1102 F:20
+c01cbf stz $0200,x   [00022f] A:b1d1 X:002f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1120 F:20
+c01cc2 inx                    A:b1d1 X:002f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1152 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0030 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1164 F:20
+c01cbf stz $0200,x   [000230] A:b1d1 X:0030 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1182 F:20
+c01cc2 inx                    A:b1d1 X:0030 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1214 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0031 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1226 F:20
+c01cbf stz $0200,x   [000231] A:b1d1 X:0031 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1244 F:20
+c01cc2 inx                    A:b1d1 X:0031 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1276 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0032 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1288 F:20
+c01cbf stz $0200,x   [000232] A:b1d1 X:0032 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1306 F:20
+c01cc2 inx                    A:b1d1 X:0032 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1338 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0033 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 40 H:1350 F:20
+c01cbf stz $0200,x   [000233] A:b1d1 X:0033 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:   4 F:20
+c01cc2 inx                    A:b1d1 X:0033 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:  36 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0034 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:  48 F:20
+c01cbf stz $0200,x   [000234] A:b1d1 X:0034 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:  66 F:20
+c01cc2 inx                    A:b1d1 X:0034 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:  98 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0035 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 110 F:20
+c01cbf stz $0200,x   [000235] A:b1d1 X:0035 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 128 F:20
+c01cc2 inx                    A:b1d1 X:0035 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 160 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0036 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 172 F:20
+c01cbf stz $0200,x   [000236] A:b1d1 X:0036 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 190 F:20
+c01cc2 inx                    A:b1d1 X:0036 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 222 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0037 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 234 F:20
+c01cbf stz $0200,x   [000237] A:b1d1 X:0037 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 252 F:20
+c01cc2 inx                    A:b1d1 X:0037 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 284 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0038 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 296 F:20
+c01cbf stz $0200,x   [000238] A:b1d1 X:0038 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 314 F:20
+c01cc2 inx                    A:b1d1 X:0038 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 346 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0039 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 358 F:20
+c01cbf stz $0200,x   [000239] A:b1d1 X:0039 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 376 F:20
+c01cc2 inx                    A:b1d1 X:0039 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 408 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:003a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 420 F:20
+c01cbf stz $0200,x   [00023a] A:b1d1 X:003a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 438 F:20
+c01cc2 inx                    A:b1d1 X:003a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 470 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:003b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 482 F:20
+c01cbf stz $0200,x   [00023b] A:b1d1 X:003b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 500 F:20
+c01cc2 inx                    A:b1d1 X:003b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 532 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:003c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 584 F:20
+c01cbf stz $0200,x   [00023c] A:b1d1 X:003c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 602 F:20
+c01cc2 inx                    A:b1d1 X:003c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 634 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:003d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 646 F:20
+c01cbf stz $0200,x   [00023d] A:b1d1 X:003d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 664 F:20
+c01cc2 inx                    A:b1d1 X:003d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 696 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:003e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 708 F:20
+c01cbf stz $0200,x   [00023e] A:b1d1 X:003e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 726 F:20
+c01cc2 inx                    A:b1d1 X:003e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 758 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:003f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 770 F:20
+c01cbf stz $0200,x   [00023f] A:b1d1 X:003f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 788 F:20
+c01cc2 inx                    A:b1d1 X:003f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 820 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0040 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 832 F:20
+c01cbf stz $0200,x   [000240] A:b1d1 X:0040 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 850 F:20
+c01cc2 inx                    A:b1d1 X:0040 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 882 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0041 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 894 F:20
+c01cbf stz $0200,x   [000241] A:b1d1 X:0041 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 912 F:20
+c01cc2 inx                    A:b1d1 X:0041 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 944 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0042 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 956 F:20
+c01cbf stz $0200,x   [000242] A:b1d1 X:0042 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H: 974 F:20
+c01cc2 inx                    A:b1d1 X:0042 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1006 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0043 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1018 F:20
+c01cbf stz $0200,x   [000243] A:b1d1 X:0043 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1036 F:20
+c01cc2 inx                    A:b1d1 X:0043 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1068 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0044 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1080 F:20
+c01cbf stz $0200,x   [000244] A:b1d1 X:0044 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1098 F:20
+c01cc2 inx                    A:b1d1 X:0044 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1130 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0045 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1142 F:20
+c01cbf stz $0200,x   [000245] A:b1d1 X:0045 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1160 F:20
+c01cc2 inx                    A:b1d1 X:0045 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1192 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0046 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1204 F:20
+c01cbf stz $0200,x   [000246] A:b1d1 X:0046 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1222 F:20
+c01cc2 inx                    A:b1d1 X:0046 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1254 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0047 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1266 F:20
+c01cbf stz $0200,x   [000247] A:b1d1 X:0047 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1284 F:20
+c01cc2 inx                    A:b1d1 X:0047 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1316 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0048 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1328 F:20
+c01cbf stz $0200,x   [000248] A:b1d1 X:0048 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 41 H:1346 F:20
+c01cc2 inx                    A:b1d1 X:0048 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:  14 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0049 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:  26 F:20
+c01cbf stz $0200,x   [000249] A:b1d1 X:0049 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:  44 F:20
+c01cc2 inx                    A:b1d1 X:0049 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:  76 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:004a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:  88 F:20
+c01cbf stz $0200,x   [00024a] A:b1d1 X:004a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 106 F:20
+c01cc2 inx                    A:b1d1 X:004a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 138 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:004b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 150 F:20
+c01cbf stz $0200,x   [00024b] A:b1d1 X:004b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 168 F:20
+c01cc2 inx                    A:b1d1 X:004b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 200 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:004c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 212 F:20
+c01cbf stz $0200,x   [00024c] A:b1d1 X:004c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 230 F:20
+c01cc2 inx                    A:b1d1 X:004c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 262 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:004d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 274 F:20
+c01cbf stz $0200,x   [00024d] A:b1d1 X:004d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 292 F:20
+c01cc2 inx                    A:b1d1 X:004d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 324 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:004e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 336 F:20
+c01cbf stz $0200,x   [00024e] A:b1d1 X:004e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 354 F:20
+c01cc2 inx                    A:b1d1 X:004e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 386 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:004f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 398 F:20
+c01cbf stz $0200,x   [00024f] A:b1d1 X:004f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 416 F:20
+c01cc2 inx                    A:b1d1 X:004f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 448 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0050 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 460 F:20
+c01cbf stz $0200,x   [000250] A:b1d1 X:0050 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 478 F:20
+c01cc2 inx                    A:b1d1 X:0050 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 510 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0051 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 522 F:20
+c01cbf stz $0200,x   [000251] A:b1d1 X:0051 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 580 F:20
+c01cc2 inx                    A:b1d1 X:0051 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 612 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0052 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 624 F:20
+c01cbf stz $0200,x   [000252] A:b1d1 X:0052 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 642 F:20
+c01cc2 inx                    A:b1d1 X:0052 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 674 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0053 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 686 F:20
+c01cbf stz $0200,x   [000253] A:b1d1 X:0053 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 704 F:20
+c01cc2 inx                    A:b1d1 X:0053 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 736 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0054 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 748 F:20
+c01cbf stz $0200,x   [000254] A:b1d1 X:0054 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 766 F:20
+c01cc2 inx                    A:b1d1 X:0054 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 798 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0055 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 810 F:20
+c01cbf stz $0200,x   [000255] A:b1d1 X:0055 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 828 F:20
+c01cc2 inx                    A:b1d1 X:0055 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 860 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0056 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 872 F:20
+c01cbf stz $0200,x   [000256] A:b1d1 X:0056 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 890 F:20
+c01cc2 inx                    A:b1d1 X:0056 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 922 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0057 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 934 F:20
+c01cbf stz $0200,x   [000257] A:b1d1 X:0057 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 952 F:20
+c01cc2 inx                    A:b1d1 X:0057 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 984 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0058 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H: 996 F:20
+c01cbf stz $0200,x   [000258] A:b1d1 X:0058 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1014 F:20
+c01cc2 inx                    A:b1d1 X:0058 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1046 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0059 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1058 F:20
+c01cbf stz $0200,x   [000259] A:b1d1 X:0059 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1076 F:20
+c01cc2 inx                    A:b1d1 X:0059 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1108 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:005a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1120 F:20
+c01cbf stz $0200,x   [00025a] A:b1d1 X:005a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1138 F:20
+c01cc2 inx                    A:b1d1 X:005a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1170 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:005b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1182 F:20
+c01cbf stz $0200,x   [00025b] A:b1d1 X:005b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1200 F:20
+c01cc2 inx                    A:b1d1 X:005b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1232 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:005c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1244 F:20
+c01cbf stz $0200,x   [00025c] A:b1d1 X:005c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1262 F:20
+c01cc2 inx                    A:b1d1 X:005c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1294 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:005d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1306 F:20
+c01cbf stz $0200,x   [00025d] A:b1d1 X:005d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1324 F:20
+c01cc2 inx                    A:b1d1 X:005d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 42 H:1356 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:005e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:   4 F:20
+c01cbf stz $0200,x   [00025e] A:b1d1 X:005e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:  22 F:20
+c01cc2 inx                    A:b1d1 X:005e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:  54 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:005f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:  66 F:20
+c01cbf stz $0200,x   [00025f] A:b1d1 X:005f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:  84 F:20
+c01cc2 inx                    A:b1d1 X:005f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 116 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0060 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 128 F:20
+c01cbf stz $0200,x   [000260] A:b1d1 X:0060 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 146 F:20
+c01cc2 inx                    A:b1d1 X:0060 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 178 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0061 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 190 F:20
+c01cbf stz $0200,x   [000261] A:b1d1 X:0061 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 208 F:20
+c01cc2 inx                    A:b1d1 X:0061 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 240 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0062 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 252 F:20
+c01cbf stz $0200,x   [000262] A:b1d1 X:0062 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 270 F:20
+c01cc2 inx                    A:b1d1 X:0062 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 302 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0063 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 314 F:20
+c01cbf stz $0200,x   [000263] A:b1d1 X:0063 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 332 F:20
+c01cc2 inx                    A:b1d1 X:0063 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 364 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0064 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 376 F:20
+c01cbf stz $0200,x   [000264] A:b1d1 X:0064 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 394 F:20
+c01cc2 inx                    A:b1d1 X:0064 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 426 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0065 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 438 F:20
+c01cbf stz $0200,x   [000265] A:b1d1 X:0065 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 456 F:20
+c01cc2 inx                    A:b1d1 X:0065 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 488 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0066 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 500 F:20
+c01cbf stz $0200,x   [000266] A:b1d1 X:0066 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 518 F:20
+c01cc2 inx                    A:b1d1 X:0066 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 590 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0067 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 602 F:20
+c01cbf stz $0200,x   [000267] A:b1d1 X:0067 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 620 F:20
+c01cc2 inx                    A:b1d1 X:0067 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 652 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0068 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 664 F:20
+c01cbf stz $0200,x   [000268] A:b1d1 X:0068 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 682 F:20
+c01cc2 inx                    A:b1d1 X:0068 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 714 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0069 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 726 F:20
+c01cbf stz $0200,x   [000269] A:b1d1 X:0069 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 744 F:20
+c01cc2 inx                    A:b1d1 X:0069 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 776 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:006a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 788 F:20
+c01cbf stz $0200,x   [00026a] A:b1d1 X:006a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 806 F:20
+c01cc2 inx                    A:b1d1 X:006a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 838 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:006b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 850 F:20
+c01cbf stz $0200,x   [00026b] A:b1d1 X:006b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 868 F:20
+c01cc2 inx                    A:b1d1 X:006b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 900 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:006c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 912 F:20
+c01cbf stz $0200,x   [00026c] A:b1d1 X:006c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 930 F:20
+c01cc2 inx                    A:b1d1 X:006c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 962 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:006d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 974 F:20
+c01cbf stz $0200,x   [00026d] A:b1d1 X:006d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H: 992 F:20
+c01cc2 inx                    A:b1d1 X:006d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1024 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:006e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1036 F:20
+c01cbf stz $0200,x   [00026e] A:b1d1 X:006e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1054 F:20
+c01cc2 inx                    A:b1d1 X:006e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1086 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:006f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1098 F:20
+c01cbf stz $0200,x   [00026f] A:b1d1 X:006f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1116 F:20
+c01cc2 inx                    A:b1d1 X:006f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1148 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0070 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1160 F:20
+c01cbf stz $0200,x   [000270] A:b1d1 X:0070 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1178 F:20
+c01cc2 inx                    A:b1d1 X:0070 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1210 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0071 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1222 F:20
+c01cbf stz $0200,x   [000271] A:b1d1 X:0071 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1240 F:20
+c01cc2 inx                    A:b1d1 X:0071 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1272 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0072 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1284 F:20
+c01cbf stz $0200,x   [000272] A:b1d1 X:0072 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1302 F:20
+c01cc2 inx                    A:b1d1 X:0072 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1334 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0073 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 43 H:1346 F:20
+c01cbf stz $0200,x   [000273] A:b1d1 X:0073 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H:   0 F:20
+c01cc2 inx                    A:b1d1 X:0073 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H:  32 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0074 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H:  44 F:20
+c01cbf stz $0200,x   [000274] A:b1d1 X:0074 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H:  62 F:20
+c01cc2 inx                    A:b1d1 X:0074 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H:  94 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0075 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 106 F:20
+c01cbf stz $0200,x   [000275] A:b1d1 X:0075 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 124 F:20
+c01cc2 inx                    A:b1d1 X:0075 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 156 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0076 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 168 F:20
+c01cbf stz $0200,x   [000276] A:b1d1 X:0076 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 186 F:20
+c01cc2 inx                    A:b1d1 X:0076 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 218 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0077 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 230 F:20
+c01cbf stz $0200,x   [000277] A:b1d1 X:0077 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 248 F:20
+c01cc2 inx                    A:b1d1 X:0077 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 280 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0078 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 292 F:20
+c01cbf stz $0200,x   [000278] A:b1d1 X:0078 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 310 F:20
+c01cc2 inx                    A:b1d1 X:0078 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 342 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0079 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 354 F:20
+c01cbf stz $0200,x   [000279] A:b1d1 X:0079 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 372 F:20
+c01cc2 inx                    A:b1d1 X:0079 Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 404 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:007a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 416 F:20
+c01cbf stz $0200,x   [00027a] A:b1d1 X:007a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 434 F:20
+c01cc2 inx                    A:b1d1 X:007a Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 466 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:007b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 478 F:20
+c01cbf stz $0200,x   [00027b] A:b1d1 X:007b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 496 F:20
+c01cc2 inx                    A:b1d1 X:007b Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 528 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:007c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 580 F:20
+c01cbf stz $0200,x   [00027c] A:b1d1 X:007c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 598 F:20
+c01cc2 inx                    A:b1d1 X:007c Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 630 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:007d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 642 F:20
+c01cbf stz $0200,x   [00027d] A:b1d1 X:007d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 660 F:20
+c01cc2 inx                    A:b1d1 X:007d Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 692 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:007e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 704 F:20
+c01cbf stz $0200,x   [00027e] A:b1d1 X:007e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 722 F:20
+c01cc2 inx                    A:b1d1 X:007e Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 754 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:007f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 766 F:20
+c01cbf stz $0200,x   [00027f] A:b1d1 X:007f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 784 F:20
+c01cc2 inx                    A:b1d1 X:007f Y:0000 S:01e6 D:0000 DB:00 nvMXdizC V: 44 H: 816 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0080 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H: 828 F:20
+c01cbf stz $0200,x   [000280] A:b1d1 X:0080 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H: 846 F:20
+c01cc2 inx                    A:b1d1 X:0080 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H: 878 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0081 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H: 890 F:20
+c01cbf stz $0200,x   [000281] A:b1d1 X:0081 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H: 908 F:20
+c01cc2 inx                    A:b1d1 X:0081 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H: 940 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0082 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H: 952 F:20
+c01cbf stz $0200,x   [000282] A:b1d1 X:0082 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H: 970 F:20
+c01cc2 inx                    A:b1d1 X:0082 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1002 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0083 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1014 F:20
+c01cbf stz $0200,x   [000283] A:b1d1 X:0083 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1032 F:20
+c01cc2 inx                    A:b1d1 X:0083 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1064 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0084 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1076 F:20
+c01cbf stz $0200,x   [000284] A:b1d1 X:0084 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1094 F:20
+c01cc2 inx                    A:b1d1 X:0084 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1126 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0085 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1138 F:20
+c01cbf stz $0200,x   [000285] A:b1d1 X:0085 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1156 F:20
+c01cc2 inx                    A:b1d1 X:0085 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1188 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0086 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1200 F:20
+c01cbf stz $0200,x   [000286] A:b1d1 X:0086 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1218 F:20
+c01cc2 inx                    A:b1d1 X:0086 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1250 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0087 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1262 F:20
+c01cbf stz $0200,x   [000287] A:b1d1 X:0087 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1280 F:20
+c01cc2 inx                    A:b1d1 X:0087 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1312 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0088 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1324 F:20
+c01cbf stz $0200,x   [000288] A:b1d1 X:0088 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 44 H:1342 F:20
+c01cc2 inx                    A:b1d1 X:0088 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:  10 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0089 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:  22 F:20
+c01cbf stz $0200,x   [000289] A:b1d1 X:0089 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:  40 F:20
+c01cc2 inx                    A:b1d1 X:0089 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:  72 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:008a Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:  84 F:20
+c01cbf stz $0200,x   [00028a] A:b1d1 X:008a Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 102 F:20
+c01cc2 inx                    A:b1d1 X:008a Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 134 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:008b Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 146 F:20
+c01cbf stz $0200,x   [00028b] A:b1d1 X:008b Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 164 F:20
+c01cc2 inx                    A:b1d1 X:008b Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 196 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:008c Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 208 F:20
+c01cbf stz $0200,x   [00028c] A:b1d1 X:008c Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 226 F:20
+c01cc2 inx                    A:b1d1 X:008c Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 258 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:008d Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 270 F:20
+c01cbf stz $0200,x   [00028d] A:b1d1 X:008d Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 288 F:20
+c01cc2 inx                    A:b1d1 X:008d Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 320 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:008e Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 332 F:20
+c01cbf stz $0200,x   [00028e] A:b1d1 X:008e Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 350 F:20
+c01cc2 inx                    A:b1d1 X:008e Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 382 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:008f Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 394 F:20
+c01cbf stz $0200,x   [00028f] A:b1d1 X:008f Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 412 F:20
+c01cc2 inx                    A:b1d1 X:008f Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 444 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0090 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 456 F:20
+c01cbf stz $0200,x   [000290] A:b1d1 X:0090 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 474 F:20
+c01cc2 inx                    A:b1d1 X:0090 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 506 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0091 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 518 F:20
+c01cbf stz $0200,x   [000291] A:b1d1 X:0091 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 576 F:20
+c01cc2 inx                    A:b1d1 X:0091 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 608 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0092 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 620 F:20
+c01cbf stz $0200,x   [000292] A:b1d1 X:0092 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 638 F:20
+c01cc2 inx                    A:b1d1 X:0092 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 670 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0093 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 682 F:20
+c01cbf stz $0200,x   [000293] A:b1d1 X:0093 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 700 F:20
+c01cc2 inx                    A:b1d1 X:0093 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 732 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0094 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 744 F:20
+c01cbf stz $0200,x   [000294] A:b1d1 X:0094 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 762 F:20
+c01cc2 inx                    A:b1d1 X:0094 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 794 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0095 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 806 F:20
+c01cbf stz $0200,x   [000295] A:b1d1 X:0095 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 824 F:20
+c01cc2 inx                    A:b1d1 X:0095 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 856 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0096 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 868 F:20
+c01cbf stz $0200,x   [000296] A:b1d1 X:0096 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 886 F:20
+c01cc2 inx                    A:b1d1 X:0096 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 918 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0097 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 930 F:20
+c01cbf stz $0200,x   [000297] A:b1d1 X:0097 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 948 F:20
+c01cc2 inx                    A:b1d1 X:0097 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 980 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0098 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H: 992 F:20
+c01cbf stz $0200,x   [000298] A:b1d1 X:0098 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1010 F:20
+c01cc2 inx                    A:b1d1 X:0098 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1042 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0099 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1054 F:20
+c01cbf stz $0200,x   [000299] A:b1d1 X:0099 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1072 F:20
+c01cc2 inx                    A:b1d1 X:0099 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1104 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:009a Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1116 F:20
+c01cbf stz $0200,x   [00029a] A:b1d1 X:009a Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1134 F:20
+c01cc2 inx                    A:b1d1 X:009a Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1166 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:009b Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1178 F:20
+c01cbf stz $0200,x   [00029b] A:b1d1 X:009b Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1196 F:20
+c01cc2 inx                    A:b1d1 X:009b Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1228 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:009c Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1240 F:20
+c01cbf stz $0200,x   [00029c] A:b1d1 X:009c Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1258 F:20
+c01cc2 inx                    A:b1d1 X:009c Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1290 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:009d Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1302 F:20
+c01cbf stz $0200,x   [00029d] A:b1d1 X:009d Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1320 F:20
+c01cc2 inx                    A:b1d1 X:009d Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 45 H:1352 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:009e Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:   0 F:20
+c01cbf stz $0200,x   [00029e] A:b1d1 X:009e Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:  18 F:20
+c01cc2 inx                    A:b1d1 X:009e Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:  50 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:009f Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:  62 F:20
+c01cbf stz $0200,x   [00029f] A:b1d1 X:009f Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:  80 F:20
+c01cc2 inx                    A:b1d1 X:009f Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 112 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 124 F:20
+c01cbf stz $0200,x   [0002a0] A:b1d1 X:00a0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 142 F:20
+c01cc2 inx                    A:b1d1 X:00a0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 174 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 186 F:20
+c01cbf stz $0200,x   [0002a1] A:b1d1 X:00a1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 204 F:20
+c01cc2 inx                    A:b1d1 X:00a1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 236 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 248 F:20
+c01cbf stz $0200,x   [0002a2] A:b1d1 X:00a2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 266 F:20
+c01cc2 inx                    A:b1d1 X:00a2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 298 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 310 F:20
+c01cbf stz $0200,x   [0002a3] A:b1d1 X:00a3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 328 F:20
+c01cc2 inx                    A:b1d1 X:00a3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 360 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 372 F:20
+c01cbf stz $0200,x   [0002a4] A:b1d1 X:00a4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 390 F:20
+c01cc2 inx                    A:b1d1 X:00a4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 422 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 434 F:20
+c01cbf stz $0200,x   [0002a5] A:b1d1 X:00a5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 452 F:20
+c01cc2 inx                    A:b1d1 X:00a5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 484 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 496 F:20
+c01cbf stz $0200,x   [0002a6] A:b1d1 X:00a6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 514 F:20
+c01cc2 inx                    A:b1d1 X:00a6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 586 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 598 F:20
+c01cbf stz $0200,x   [0002a7] A:b1d1 X:00a7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 616 F:20
+c01cc2 inx                    A:b1d1 X:00a7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 648 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 660 F:20
+c01cbf stz $0200,x   [0002a8] A:b1d1 X:00a8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 678 F:20
+c01cc2 inx                    A:b1d1 X:00a8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 710 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00a9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 722 F:20
+c01cbf stz $0200,x   [0002a9] A:b1d1 X:00a9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 740 F:20
+c01cc2 inx                    A:b1d1 X:00a9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 772 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00aa Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 784 F:20
+c01cbf stz $0200,x   [0002aa] A:b1d1 X:00aa Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 802 F:20
+c01cc2 inx                    A:b1d1 X:00aa Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 834 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ab Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 846 F:20
+c01cbf stz $0200,x   [0002ab] A:b1d1 X:00ab Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 864 F:20
+c01cc2 inx                    A:b1d1 X:00ab Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 896 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ac Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 908 F:20
+c01cbf stz $0200,x   [0002ac] A:b1d1 X:00ac Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 926 F:20
+c01cc2 inx                    A:b1d1 X:00ac Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 958 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ad Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 970 F:20
+c01cbf stz $0200,x   [0002ad] A:b1d1 X:00ad Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H: 988 F:20
+c01cc2 inx                    A:b1d1 X:00ad Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1020 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ae Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1032 F:20
+c01cbf stz $0200,x   [0002ae] A:b1d1 X:00ae Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1050 F:20
+c01cc2 inx                    A:b1d1 X:00ae Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1082 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00af Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1094 F:20
+c01cbf stz $0200,x   [0002af] A:b1d1 X:00af Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1112 F:20
+c01cc2 inx                    A:b1d1 X:00af Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1144 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1156 F:20
+c01cbf stz $0200,x   [0002b0] A:b1d1 X:00b0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1174 F:20
+c01cc2 inx                    A:b1d1 X:00b0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1206 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1218 F:20
+c01cbf stz $0200,x   [0002b1] A:b1d1 X:00b1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1236 F:20
+c01cc2 inx                    A:b1d1 X:00b1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1268 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1280 F:20
+c01cbf stz $0200,x   [0002b2] A:b1d1 X:00b2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1298 F:20
+c01cc2 inx                    A:b1d1 X:00b2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1330 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1342 F:20
+c01cbf stz $0200,x   [0002b3] A:b1d1 X:00b3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 46 H:1360 F:20
+c01cc2 inx                    A:b1d1 X:00b3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:  28 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:  40 F:20
+c01cbf stz $0200,x   [0002b4] A:b1d1 X:00b4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:  58 F:20
+c01cc2 inx                    A:b1d1 X:00b4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:  90 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 102 F:20
+c01cbf stz $0200,x   [0002b5] A:b1d1 X:00b5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 120 F:20
+c01cc2 inx                    A:b1d1 X:00b5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 152 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 164 F:20
+c01cbf stz $0200,x   [0002b6] A:b1d1 X:00b6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 182 F:20
+c01cc2 inx                    A:b1d1 X:00b6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 214 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 226 F:20
+c01cbf stz $0200,x   [0002b7] A:b1d1 X:00b7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 244 F:20
+c01cc2 inx                    A:b1d1 X:00b7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 276 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 288 F:20
+c01cbf stz $0200,x   [0002b8] A:b1d1 X:00b8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 306 F:20
+c01cc2 inx                    A:b1d1 X:00b8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 338 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00b9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 350 F:20
+c01cbf stz $0200,x   [0002b9] A:b1d1 X:00b9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 368 F:20
+c01cc2 inx                    A:b1d1 X:00b9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 400 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ba Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 412 F:20
+c01cbf stz $0200,x   [0002ba] A:b1d1 X:00ba Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 430 F:20
+c01cc2 inx                    A:b1d1 X:00ba Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 462 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00bb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 474 F:20
+c01cbf stz $0200,x   [0002bb] A:b1d1 X:00bb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 492 F:20
+c01cc2 inx                    A:b1d1 X:00bb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 524 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00bc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 576 F:20
+c01cbf stz $0200,x   [0002bc] A:b1d1 X:00bc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 594 F:20
+c01cc2 inx                    A:b1d1 X:00bc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 626 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00bd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 638 F:20
+c01cbf stz $0200,x   [0002bd] A:b1d1 X:00bd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 656 F:20
+c01cc2 inx                    A:b1d1 X:00bd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 688 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00be Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 700 F:20
+c01cbf stz $0200,x   [0002be] A:b1d1 X:00be Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 718 F:20
+c01cc2 inx                    A:b1d1 X:00be Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 750 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00bf Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 762 F:20
+c01cbf stz $0200,x   [0002bf] A:b1d1 X:00bf Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 780 F:20
+c01cc2 inx                    A:b1d1 X:00bf Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 812 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 824 F:20
+c01cbf stz $0200,x   [0002c0] A:b1d1 X:00c0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 842 F:20
+c01cc2 inx                    A:b1d1 X:00c0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 874 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 886 F:20
+c01cbf stz $0200,x   [0002c1] A:b1d1 X:00c1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 904 F:20
+c01cc2 inx                    A:b1d1 X:00c1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 936 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 948 F:20
+c01cbf stz $0200,x   [0002c2] A:b1d1 X:00c2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 966 F:20
+c01cc2 inx                    A:b1d1 X:00c2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H: 998 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1010 F:20
+c01cbf stz $0200,x   [0002c3] A:b1d1 X:00c3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1028 F:20
+c01cc2 inx                    A:b1d1 X:00c3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1060 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1072 F:20
+c01cbf stz $0200,x   [0002c4] A:b1d1 X:00c4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1090 F:20
+c01cc2 inx                    A:b1d1 X:00c4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1122 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1134 F:20
+c01cbf stz $0200,x   [0002c5] A:b1d1 X:00c5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1152 F:20
+c01cc2 inx                    A:b1d1 X:00c5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1184 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1196 F:20
+c01cbf stz $0200,x   [0002c6] A:b1d1 X:00c6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1214 F:20
+c01cc2 inx                    A:b1d1 X:00c6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1246 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1258 F:20
+c01cbf stz $0200,x   [0002c7] A:b1d1 X:00c7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1276 F:20
+c01cc2 inx                    A:b1d1 X:00c7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1308 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1320 F:20
+c01cbf stz $0200,x   [0002c8] A:b1d1 X:00c8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 47 H:1338 F:20
+c01cc2 inx                    A:b1d1 X:00c8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:   6 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00c9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:  18 F:20
+c01cbf stz $0200,x   [0002c9] A:b1d1 X:00c9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:  36 F:20
+c01cc2 inx                    A:b1d1 X:00c9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:  68 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ca Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:  80 F:20
+c01cbf stz $0200,x   [0002ca] A:b1d1 X:00ca Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:  98 F:20
+c01cc2 inx                    A:b1d1 X:00ca Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 130 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00cb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 142 F:20
+c01cbf stz $0200,x   [0002cb] A:b1d1 X:00cb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 160 F:20
+c01cc2 inx                    A:b1d1 X:00cb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 192 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00cc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 204 F:20
+c01cbf stz $0200,x   [0002cc] A:b1d1 X:00cc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 222 F:20
+c01cc2 inx                    A:b1d1 X:00cc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 254 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00cd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 266 F:20
+c01cbf stz $0200,x   [0002cd] A:b1d1 X:00cd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 284 F:20
+c01cc2 inx                    A:b1d1 X:00cd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 316 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ce Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 328 F:20
+c01cbf stz $0200,x   [0002ce] A:b1d1 X:00ce Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 346 F:20
+c01cc2 inx                    A:b1d1 X:00ce Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 378 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00cf Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 390 F:20
+c01cbf stz $0200,x   [0002cf] A:b1d1 X:00cf Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 408 F:20
+c01cc2 inx                    A:b1d1 X:00cf Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 440 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 452 F:20
+c01cbf stz $0200,x   [0002d0] A:b1d1 X:00d0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 470 F:20
+c01cc2 inx                    A:b1d1 X:00d0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 502 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 514 F:20
+c01cbf stz $0200,x   [0002d1] A:b1d1 X:00d1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 532 F:20
+c01cc2 inx                    A:b1d1 X:00d1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 604 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 616 F:20
+c01cbf stz $0200,x   [0002d2] A:b1d1 X:00d2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 634 F:20
+c01cc2 inx                    A:b1d1 X:00d2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 666 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 678 F:20
+c01cbf stz $0200,x   [0002d3] A:b1d1 X:00d3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 696 F:20
+c01cc2 inx                    A:b1d1 X:00d3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 728 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 740 F:20
+c01cbf stz $0200,x   [0002d4] A:b1d1 X:00d4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 758 F:20
+c01cc2 inx                    A:b1d1 X:00d4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 790 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 802 F:20
+c01cbf stz $0200,x   [0002d5] A:b1d1 X:00d5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 820 F:20
+c01cc2 inx                    A:b1d1 X:00d5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 852 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 864 F:20
+c01cbf stz $0200,x   [0002d6] A:b1d1 X:00d6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 882 F:20
+c01cc2 inx                    A:b1d1 X:00d6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 914 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 926 F:20
+c01cbf stz $0200,x   [0002d7] A:b1d1 X:00d7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 944 F:20
+c01cc2 inx                    A:b1d1 X:00d7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 976 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H: 988 F:20
+c01cbf stz $0200,x   [0002d8] A:b1d1 X:00d8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1006 F:20
+c01cc2 inx                    A:b1d1 X:00d8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1038 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00d9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1050 F:20
+c01cbf stz $0200,x   [0002d9] A:b1d1 X:00d9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1068 F:20
+c01cc2 inx                    A:b1d1 X:00d9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1100 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00da Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1112 F:20
+c01cbf stz $0200,x   [0002da] A:b1d1 X:00da Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1130 F:20
+c01cc2 inx                    A:b1d1 X:00da Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1162 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00db Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1174 F:20
+c01cbf stz $0200,x   [0002db] A:b1d1 X:00db Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1192 F:20
+c01cc2 inx                    A:b1d1 X:00db Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1224 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00dc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1236 F:20
+c01cbf stz $0200,x   [0002dc] A:b1d1 X:00dc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1254 F:20
+c01cc2 inx                    A:b1d1 X:00dc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1286 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00dd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1298 F:20
+c01cbf stz $0200,x   [0002dd] A:b1d1 X:00dd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1316 F:20
+c01cc2 inx                    A:b1d1 X:00dd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1348 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00de Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 48 H:1360 F:20
+c01cbf stz $0200,x   [0002de] A:b1d1 X:00de Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:  14 F:20
+c01cc2 inx                    A:b1d1 X:00de Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:  46 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00df Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:  58 F:20
+c01cbf stz $0200,x   [0002df] A:b1d1 X:00df Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:  76 F:20
+c01cc2 inx                    A:b1d1 X:00df Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 108 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 120 F:20
+c01cbf stz $0200,x   [0002e0] A:b1d1 X:00e0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 138 F:20
+c01cc2 inx                    A:b1d1 X:00e0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 170 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 182 F:20
+c01cbf stz $0200,x   [0002e1] A:b1d1 X:00e1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 200 F:20
+c01cc2 inx                    A:b1d1 X:00e1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 232 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 244 F:20
+c01cbf stz $0200,x   [0002e2] A:b1d1 X:00e2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 262 F:20
+c01cc2 inx                    A:b1d1 X:00e2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 294 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 306 F:20
+c01cbf stz $0200,x   [0002e3] A:b1d1 X:00e3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 324 F:20
+c01cc2 inx                    A:b1d1 X:00e3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 356 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 368 F:20
+c01cbf stz $0200,x   [0002e4] A:b1d1 X:00e4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 386 F:20
+c01cc2 inx                    A:b1d1 X:00e4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 418 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 430 F:20
+c01cbf stz $0200,x   [0002e5] A:b1d1 X:00e5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 448 F:20
+c01cc2 inx                    A:b1d1 X:00e5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 480 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 492 F:20
+c01cbf stz $0200,x   [0002e6] A:b1d1 X:00e6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 510 F:20
+c01cc2 inx                    A:b1d1 X:00e6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 582 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 594 F:20
+c01cbf stz $0200,x   [0002e7] A:b1d1 X:00e7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 612 F:20
+c01cc2 inx                    A:b1d1 X:00e7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 644 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 656 F:20
+c01cbf stz $0200,x   [0002e8] A:b1d1 X:00e8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 674 F:20
+c01cc2 inx                    A:b1d1 X:00e8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 706 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00e9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 718 F:20
+c01cbf stz $0200,x   [0002e9] A:b1d1 X:00e9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 736 F:20
+c01cc2 inx                    A:b1d1 X:00e9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 768 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ea Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 780 F:20
+c01cbf stz $0200,x   [0002ea] A:b1d1 X:00ea Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 798 F:20
+c01cc2 inx                    A:b1d1 X:00ea Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 830 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00eb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 842 F:20
+c01cbf stz $0200,x   [0002eb] A:b1d1 X:00eb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 860 F:20
+c01cc2 inx                    A:b1d1 X:00eb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 892 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ec Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 904 F:20
+c01cbf stz $0200,x   [0002ec] A:b1d1 X:00ec Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 922 F:20
+c01cc2 inx                    A:b1d1 X:00ec Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 954 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ed Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 966 F:20
+c01cbf stz $0200,x   [0002ed] A:b1d1 X:00ed Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H: 984 F:20
+c01cc2 inx                    A:b1d1 X:00ed Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1016 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ee Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1028 F:20
+c01cbf stz $0200,x   [0002ee] A:b1d1 X:00ee Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1046 F:20
+c01cc2 inx                    A:b1d1 X:00ee Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1078 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ef Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1090 F:20
+c01cbf stz $0200,x   [0002ef] A:b1d1 X:00ef Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1108 F:20
+c01cc2 inx                    A:b1d1 X:00ef Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1140 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1152 F:20
+c01cbf stz $0200,x   [0002f0] A:b1d1 X:00f0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1170 F:20
+c01cc2 inx                    A:b1d1 X:00f0 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1202 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1214 F:20
+c01cbf stz $0200,x   [0002f1] A:b1d1 X:00f1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1232 F:20
+c01cc2 inx                    A:b1d1 X:00f1 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1264 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1276 F:20
+c01cbf stz $0200,x   [0002f2] A:b1d1 X:00f2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1294 F:20
+c01cc2 inx                    A:b1d1 X:00f2 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1326 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1338 F:20
+c01cbf stz $0200,x   [0002f3] A:b1d1 X:00f3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 49 H:1356 F:20
+c01cc2 inx                    A:b1d1 X:00f3 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H:  24 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H:  36 F:20
+c01cbf stz $0200,x   [0002f4] A:b1d1 X:00f4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H:  54 F:20
+c01cc2 inx                    A:b1d1 X:00f4 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H:  86 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H:  98 F:20
+c01cbf stz $0200,x   [0002f5] A:b1d1 X:00f5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 116 F:20
+c01cc2 inx                    A:b1d1 X:00f5 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 148 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 160 F:20
+c01cbf stz $0200,x   [0002f6] A:b1d1 X:00f6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 178 F:20
+c01cc2 inx                    A:b1d1 X:00f6 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 210 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 222 F:20
+c01cbf stz $0200,x   [0002f7] A:b1d1 X:00f7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 240 F:20
+c01cc2 inx                    A:b1d1 X:00f7 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 272 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 284 F:20
+c01cbf stz $0200,x   [0002f8] A:b1d1 X:00f8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 302 F:20
+c01cc2 inx                    A:b1d1 X:00f8 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 334 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00f9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 346 F:20
+c01cbf stz $0200,x   [0002f9] A:b1d1 X:00f9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 364 F:20
+c01cc2 inx                    A:b1d1 X:00f9 Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 396 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00fa Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 408 F:20
+c01cbf stz $0200,x   [0002fa] A:b1d1 X:00fa Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 426 F:20
+c01cc2 inx                    A:b1d1 X:00fa Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 458 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00fb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 470 F:20
+c01cbf stz $0200,x   [0002fb] A:b1d1 X:00fb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 488 F:20
+c01cc2 inx                    A:b1d1 X:00fb Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 520 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00fc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 532 F:20
+c01cbf stz $0200,x   [0002fc] A:b1d1 X:00fc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 590 F:20
+c01cc2 inx                    A:b1d1 X:00fc Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 622 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00fd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 634 F:20
+c01cbf stz $0200,x   [0002fd] A:b1d1 X:00fd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 652 F:20
+c01cc2 inx                    A:b1d1 X:00fd Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 684 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00fe Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 696 F:20
+c01cbf stz $0200,x   [0002fe] A:b1d1 X:00fe Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 714 F:20
+c01cc2 inx                    A:b1d1 X:00fe Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 746 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:00ff Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 758 F:20
+c01cbf stz $0200,x   [0002ff] A:b1d1 X:00ff Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 776 F:20
+c01cc2 inx                    A:b1d1 X:00ff Y:0000 S:01e6 D:0000 DB:00 NvMXdizC V: 50 H: 808 F:20
+c01cc3 bne $1cbf     [c01cbf] A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 nvMXdiZC V: 50 H: 820 F:20
+c01cc5 stz $66       [000066] A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 nvMXdiZC V: 50 H: 832 F:20
+c01cc7 jsr $1d45     [c01d45] A:b1d1 X:0000 Y:0000 S:01e6 D:0000 DB:00 nvMXdiZC V: 50 H: 852 F:20
+c01d45 lda [$60]     [d1b126] A:b1d1 X:0000 Y:0000 S:01e4 D:0000 DB:00 nvMXdiZC V: 50 H: 892 F:20

@@ -1,0 +1,15 @@
+Stage Name Translations:
+
+Stage 1: 	いつもの 			Classic (Lit: the usual)
+Stage 2: 	べるこんだい 			Conveyor (Lit: Conveyor Belt)
+Stage 3: 	やねでかくれんぼ		Hide and seek (Lit: Rooftop Hide-and-Seek)
+Stage 4: 	ライトが2つ			Spotlights (Lit: The 2 lights)
+Stage 5: 	すばやくはしるぜ		Lightning Sprint (Lit: Run quickly!)
+Stage 6: 	ゆきだこおりだ!		Ice and Snow!
+Stage 7: 	まがるぜゴー			Path Bender (Bending Path)
+Stage 8: 	トロッコにのろう		Ride the Cart!
+Stage 9: 	つうこうどめ			Dead End
+Stage 10: 	おどれファイアー		Fire Dance
+Stage 11:	へんなるーぷ			Strange Loop
+Stage 12:	からくりべるこん		Trick Conveyor
+Stage 13:	ふしぎなトロッコ		Mystery Cart (Truck, Trolley)

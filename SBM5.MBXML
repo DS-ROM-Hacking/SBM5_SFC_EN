@@ -1,0 +1,59 @@
+<build original="Base\base.sfc" name="SuperBomberMan5" pad="true" version="EN_v0" revision="01" revbyteloc="FFDB" path=".\" diff="">
+
+	<!-- Graphics Pointer Table  -->
+	<rep file="Data\0x5E22D_PointerTable_Fixed.bin" offset="5E22D"/>
+
+	<!-- 1 PLAYER GAME 2 PLAYERS GAME -->
+	<rep file="Data\0x110782_1Player_2Player.bin" offset="110782" />
+	
+	<!-- Battle Mode Menu Tilemap -->
+	<rep file="Data\0x11AAB0_BattleModeTitle_Tilemap.bin" offset="11AAB0" />
+	<rep file="Data\0x11AAEB_BattleModeMenuOptionsTilemap.bin" offset="11AAEB" />
+	<rep file="Data\0x11ABED_SelectMatchTitle_Tilemap.bin" offset="11ABED" />
+	<!--<rep file="Data\0x11AC33_SingleTagMatch_Tilemap.bin" offset="11AC33" />-->
+	<rep file="Data\0X11E50C_SelectOptionHeader_Tilemap.bin" offset="11E50C" />
+	<rep file="Data\0X11E685_SoundTestHeader_Tilemap.bin" offset="11E685" />
+	<rep file="Data\0x11ACD7_PlayerSelectHeader.bin" offset="11ACD7" />
+	<rep file="Data\0x11DCEA_NormalModeHeader.bin" offset="11DCEA" />
+	<rep file="Data\0X11DD29_NormalModeMenu1.bin" offset="11DD29" />
+	
+	<rep file="Data\0X11E004_SelectUnusedFileHeader.bin" offset="11E004" />
+	<rep file="Data\0X11DEDD_ClearFileHeader.bin" offset="11DEDD" />
+	<rep file="Data\0X11DDE8_ContinueGameHeader.bin" offset="11DDE8" />
+	
+	<rep file="Data\0X11B65B_CharacterSelectHeader.bin" offset="11B65B" />
+	<rep file="Data\0x11AFD3_MatchRules.bin" offset="11AFD3" />
+	
+	<!-- Duplicate data... for the file select screens -->
+	<rep file="Data\0x11DE2B_FILE123.bin" offset="11DE2B" />
+	<rep file="Data\0x11DE2B_FILE123.bin" offset="11DF27" />
+	<rep file="Data\0x11DE2B_FILE123.bin" offset="11E04B" />
+	
+	
+	<!--<rep file="Data\0x11E54B_PasswordEntry_Sound_Tilemap.bin" offset="11E54B" />
+	<rep file="Data\0X11E58D_SoundTestOption_Tilemap.bin" offset="11E58D" />
+	<rep file="Data\0X11E635_Mono_Stereo_Tilemap.bin" offset="11E635" />-->
+	
+	
+	<!-- Menu Header Font for "Battle Mode" and "Single - Tag?" -->
+	<rlr file="GFX\0x172C06_BattleMode_SelectType.bin" offset="1F4B82" />	
+	<rlr file="GFX\0x1477C0_SoundTestFont.bin" offset="1477C0" />
+	<rlr file="GFX\0x1492CF_Font5.bin" offset="1492CF" />
+	<rlr file="GFX\0x148CA2_Font4.bin" offset="148CA2" />
+	<!--Used for options screen-->
+	<rlr file="GFX\0x1469D1_Font3.bin" offset="1469D1" />
+	<rlr file="GFX\0x1461EA_Font2.bin" offset="1461EA" />
+	<rlr file="GFX\0x14568E_Font1.bin" offset="14568E" />
+	<!-- Select Option and Sound Test Menu Header Font -->
+	<rlr file="GFX\0x176729_SelectOptionTitleFont.bin" offset="176729" />
+	<rlr file="GFX\0x146FBE_Symbol_Header_Ext.bin" offset="DCC0" />
+	<!-- Normal Mode Headers and menu font -->
+	<rlr file="GFX\0x1721DC_NormalModeHeader.bin" offset="1721DC" />
+	<rlr file="GFX\0x171BFA_NormalModeFont.bin" offset="171BFA" />
+	
+	<rlr file="GFX\0x17355A_CharacterSelectHeader.bin" offset="17355A" />
+	<rlr file="GFX\0x173B74_MatchRulesHeader.bin" offset="173B74" />
+	
+	
+	
+</build>

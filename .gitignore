@@ -1,0 +1,17 @@
+*.sfc
+*.smc
+*.fig
+*.iso
+*.xdelta
+*.ips
+*.ini
+*.exe
+*.bak
+/z_old
+/Release
+**/old
+**/backups
+**/TM
+**/LunarAddress
+**/MBuild
+**/xdelta

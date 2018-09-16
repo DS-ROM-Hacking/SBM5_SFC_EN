@@ -1,0 +1,89 @@
+======================================================================
+                         BATTLE ROYALE MODE
+======================================================================
+                         =================
+                            MATCH TYPE
+                         =================
+You can change the setting by Direction pad.
+
+                       --------------------
+                      |    SINGLES MATCH   |
+                      |                    |
+                      |     TEAM MATCH     |
+                       --------------------
+                     ========================
+                          PLAYER SELECT
+                     ========================
+The chart show the default setting of the game. You may change it
+by Direction pad.
+
+                      ---------------------
+                     |  1Player      MAN   |
+                     |                     |
+                     |  2Player      MAN   | 
+                     |                     |
+                     |  3Player      COM   |
+                     |                     |
+                     |  4Player      COM   |
+                     |                     |
+                     |  5Player      COM   |
+                      ---------------------
+                     =======================
+                        CHARACTER SELECT
+                     =======================
+All the Alpha stands for the characters in this mode. J is a secret 
+character and you will be able to choose him if your normal game's
+save file reaches 100%.
+
+                      ----------------------
+                     |    ______________    |
+                     |   |__|__|__|__|__|   |
+                     |                      |  
+                     |                      |
+                     |                      |
+                     | 1p  2p               |
+                     | [A] [B]  C   D   E   |
+                     |                      |
+                     |  F   G   H   I   J   |
+                      ----------------------
+                      =====================
+                           MATCH  RULES
+                      =====================
+You can set comlevel to weak, normal or strong. 
+You can set battle to 1, 2, 3, 4, 5.
+You can set time to 1:00, 2:00, 3:00, 4:00, 5:00, Unlimited
+You can set sudden death to random, on, off.
+You can set revenge to super, on, off.
+You can set bowling bomber to on, off.(single match only)
+
+                      ----------------------
+                     | COMLEVEL       WEAK  |
+                     |                      |
+                     | BATTLE          3    |  
+                     |                      |
+                     | TIME           2:00  |
+                     |                      |
+                     | SUDDEN DEATH   RANDOM|
+                     |                      |
+                     | MISSILE BOMB   SUPER | みそボン "Misokkasu" Bomber (みそっかすボンバー) I'll translate this as REVENGE
+                     |                      |
+                     | BOWLING BOMBER ON    |
+                      ----------------------
+                      ======================
+                           TEAM SELECT
+                      ======================
+Now, you must divide the players into 2 teams
+
+                      ----------------------
+                     |    ______________    |
+                     |   |__|__|__|__|__|   |
+                     |                      |
+                     |         V  S         |
+                     |    ______________    |
+                     |   |__|__|__|__|__|   |
+                     |                      |
+                      ----------------------
+                      =======================
+                            MAP SELECT
+                      =======================
+Finally, select a map that you wish to play.[There are 10 maps in this mode]
