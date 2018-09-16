@@ -6,6 +6,12 @@
 	<!-- 1 PLAYER GAME 2 PLAYERS GAME -->
 	<rep file="Data\0x110782_1Player_2Player.bin" offset="110782" />
 	
+	<!-- Point Table for Menu Text -->
+	<rep file="Data\0x11A000_MenuTextPointerTable_TESTING.bin" offset="11A000" />
+	<rep file="Data\0x11B0E9_ComLevel.bin" offset="11B0E9" />
+	<rep file="Data\0x11EFD0_EasyText.bin" offset="11EFD0" />
+	
+	
 	<!-- Battle Mode Menu Tilemap -->
 	<rep file="Data\0x11AAB0_BattleModeTitle_Tilemap.bin" offset="11AAB0" />
 	<rep file="Data\0x11AAEB_BattleModeMenuOptionsTilemap.bin" offset="11AAEB" />
