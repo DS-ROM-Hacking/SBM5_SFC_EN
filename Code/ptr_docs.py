@@ -12,7 +12,7 @@ hirom_bank = 'D1'
 pc_bank = '11'
 docs_output_file = '../Notes/ptr_docs.csv'
 # indicates the location of the pointer, the pointer value in hirom, and the pointer value in pc
-docs_header = 'Count,PC Offset,HIROM Offset,PC Pointer,HIROM Pointer,Description'
+docs_header = 'Count,PC Offset,HIROM Offset,PC Pointer,HIROM Pointer,Actual Pointer,Description'
 
 out_doc = ''
 
@@ -20,7 +20,7 @@ ptr_count = 0
 position = 0
 
 print('READING POINTERS...')
-out_doc += docs_header + '/r/n'
+out_doc += docs_header + '\n'
 with open(ptr_table_path, 'rb') as ptr_file:
     while True:
         val = ptr_file.read(1)
@@ -30,13 +30,13 @@ with open(ptr_table_path, 'rb') as ptr_file:
         if len(page) == 0:
             break
 
-        out_line = '{0},{1:X},{2:X},{5}{3}{4}, {6}{3}{4},'.format(ptr_count,
-                                                                  (start_pc_address + position),
-                                                                  (start_hirom_address + position),
-                                                                  page.hex().upper(), val.hex().upper(),
-                                                                  pc_bank, hirom_bank)
+        out_line = '{0},"{1:X}","{2:X}","{5}{3}{4}","{6}{3}{4}","{4}{3}",'.format(ptr_count,
+                                                                                  (start_pc_address + position),
+                                                                                  (start_hirom_address + position),
+                                                                                  page.hex().upper(), val.hex().upper(),
+                                                                                  pc_bank, hirom_bank)
         print(out_line)
-        out_doc += out_line + '/r/n'
+        out_doc += out_line + '\n'
 
         ptr_count += 1
         position += 2
