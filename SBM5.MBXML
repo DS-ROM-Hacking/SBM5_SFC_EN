@@ -28,9 +28,9 @@
 	<rep file="Data\0X11DDE8_ContinueGameHeader.bin" offset="11DDE8" />
 	
 	<rep file="Data\0X11B65B_CharacterSelectHeader.bin" offset="11B65B" />
-	<rep file="Data\0x11AFD3_MatchRules.bin" offset="11AFD3" />
+	<rep file="Data\0x11AFC9_MatchRules_Full.bin" offset="11EFE6" />
 	
-	<!-- Duplicate data... for the file select screens -->
+	<!-- Duplicate data... for the file select screens... TODO: just change the pointers to look at the first one -->
 	<rep file="Data\0x11DE2B_FILE123.bin" offset="11DE2B" />
 	<rep file="Data\0x11DE2B_FILE123.bin" offset="11DF27" />
 	<rep file="Data\0x11DE2B_FILE123.bin" offset="11E04B" />
