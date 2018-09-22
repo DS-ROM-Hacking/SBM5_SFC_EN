@@ -1,0 +1,5 @@
+
+Unlock battle stages 11, 12 and 13
+
+This requires Hudson's Super Joycard controller.
+Have the X switch on the controller set to the middle and on the title screen hold X for about 6 seconds. A sound will confirm on success. These are the same stages found on the gold cartridge
