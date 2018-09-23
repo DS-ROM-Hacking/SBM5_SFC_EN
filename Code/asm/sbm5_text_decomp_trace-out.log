@@ -18,7 +18,7 @@ c00071 sta $1d35
 c00074 iny           
 c00075 lda $0341     
 c00078 bit #$02      
-c0007a bne $009e     
+c0007a bne
 c0007c bit #$04      
 c0007e beq $00bc     
 c000bc lda [$a5],y   
