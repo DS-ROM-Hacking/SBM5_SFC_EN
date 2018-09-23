@@ -4,7 +4,7 @@
 	<rep file="Data\0x5E22D_PointerTable_Fixed.bin" offset="5E22D"/>
 
 	<rep file="Data\0x3DC4A_MiscTextPointerTable.bin" offset="3DC4A"/>
-	<rep file="Data\0x3EADB_StageSelect_Tiles.bin" offset="34FE6"/>
+	<rep file="Data\0x3EADB_StageSelect_Tiles.bin" offset="3EADB"/>
 	
 	
 	<!-- 1 PLAYER GAME 2 PLAYERS GAME -->
@@ -54,8 +54,10 @@
 	<rlr file="GFX\0x1469D1_Font3.bin" offset="1469D1" />
 	<rlr file="GFX\0x1461EA_Font2.bin" offset="1461EA" />
 	<rlr file="GFX\0x14568E_Font1.bin" offset="14568E" />
+	
 	<!--Stage Select Font-->
 	<rlr file="GFX\0x16F48E_StageSelect.bin" offset="16F48E" />
+	
 	<!-- Select Option and Sound Test Menu Header Font -->
 	<rlr file="GFX\0x176729_SelectOptionTitleFont.bin" offset="176729" />
 	<rlr file="GFX\0x146FBE_Symbol_Header_Ext.bin" offset="DCC0" />
