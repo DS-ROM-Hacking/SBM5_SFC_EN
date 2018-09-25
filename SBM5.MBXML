@@ -3,9 +3,41 @@
 	<!-- Graphics Pointer Table  -->
 	<rep file="Data\0x5E22D_PointerTable_Fixed.bin" offset="5E22D"/>
 
+	<!-- Pointer Table for Stage Select, etc.  -->
 	<rep file="Data\0x3DC4A_MiscTextPointerTable.bin" offset="3DC4A"/>
-	<rep file="Data\0x3EADB_StageSelect_Tiles.bin" offset="3EADB"/>
 	
+	<!-- Stage Select Tile Maps 79-85, E0-EE  -->
+	<rep file="Data\stage_select\0x03EADB_Index_79_Ptr_EADB.bin" offset="3EADB"/>
+	<rep file="Data\stage_select\0x03EB50_Index_7A_Ptr_EB50.bin" offset="3EB50"/>
+	<rep file="Data\stage_select\0x03EB86_Index_7B_Ptr_EB86.bin" offset="3EB86"/>
+	<rep file="Data\stage_select\0x03EBE6_Index_7C_Ptr_EBE6.bin" offset="3EBE6"/>
+	<rep file="Data\stage_select\0x03EC3F_Index_7D_Ptr_EC3F.bin" offset="3EC3F"/>
+	<rep file="Data\stage_select\0x03EC98_Index_7E_Ptr_EC98.bin" offset="3EC98"/>
+	<rep file="Data\stage_select\0x03ECD5_Index_7F_Ptr_ECD5.bin" offset="3ECD5"/>
+	<rep file="Data\stage_select\0x03ED27_Index_80_Ptr_ED27.bin" offset="3ED27"/>
+	<rep file="Data\stage_select\0x03ED72_Index_81_Ptr_ED72.bin" offset="3ED72"/>
+	<rep file="Data\stage_select\0x03EDCB_Index_82_Ptr_EDCB.bin" offset="3EDCB"/>
+	<rep file="Data\stage_select\0x03EE1D_Index_83_Ptr_EE1D.bin" offset="3EE1D"/>
+	<rep file="Data\stage_select\0x03EE76_Index_84_Ptr_EE76.bin" offset="3EE76"/>
+	<rep file="Data\stage_select\0x03EECF_Index_85_Ptr_EECF.bin" offset="3EECF"/>
+	<rep file="Data\stage_select\0x03EF3D_Index_86_Ptr_EF3D.bin" offset="3EF3D"/>
+	<rep file="Data\stage_select\0x03F00D_Index_87_Ptr_F00D.bin" offset="3F00D"/>
+	
+	<rep file="Data\stage_select\0x03EAD7_Index_E0_Ptr_EAD7.bin" offset="3EAD7"/>
+	<rep file="Data\stage_select\0x03EB4C_Index_E1_Ptr_EB4C.bin" offset="3EB4C"/>
+	<rep file="Data\stage_select\0x03EB82_Index_E2_Ptr_EB82.bin" offset="3EB82"/>
+	<rep file="Data\stage_select\0x03EBE2_Index_E3_Ptr_EBE2.bin" offset="3EBE2"/>
+	<rep file="Data\stage_select\0x03EC3B_Index_E4_Ptr_EC3B.bin" offset="3EC3B"/>
+	<rep file="Data\stage_select\0x03EC94_Index_E5_Ptr_EC94.bin" offset="3EC94"/>
+	<rep file="Data\stage_select\0x03ECD1_Index_E6_Ptr_ECD1.bin" offset="3ECD1"/>
+	<rep file="Data\stage_select\0x03ED23_Index_E7_Ptr_ED23.bin" offset="3ED23"/>
+	<rep file="Data\stage_select\0x03ED6E_Index_E8_Ptr_ED6E.bin" offset="3ED6E"/>
+	<rep file="Data\stage_select\0x03EDC7_Index_E9_Ptr_EDC7.bin" offset="3EDC7"/>
+	<rep file="Data\stage_select\0x03EE19_Index_EA_Ptr_EE19.bin" offset="3EE19"/>
+	<rep file="Data\stage_select\0x03EE72_Index_EB_Ptr_EE72.bin" offset="3EE72"/>
+	<rep file="Data\stage_select\0x03EECB_Index_EC_Ptr_EECB.bin" offset="3EECB"/>
+	<rep file="Data\stage_select\0x03EF39_Index_ED_Ptr_EF39.bin" offset="3EF39"/>
+	<rep file="Data\stage_select\0x03EFA0_Index_EE_Ptr_EFA0.bin" offset="3EFA0"/>
 	
 	<!-- 1 PLAYER GAME 2 PLAYERS GAME -->
 	<rep file="Data\0x110782_1Player_2Player.bin" offset="110782" />
@@ -57,6 +89,7 @@
 	
 	<!--Stage Select Font-->
 	<rlr file="GFX\0x16F48E_StageSelect.bin" offset="16F48E" />
+	<rlr file="GFX\0x170858_StageSelect2.bin" offset="170858" />
 	
 	<!-- Select Option and Sound Test Menu Header Font -->
 	<rlr file="GFX\0x176729_SelectOptionTitleFont.bin" offset="176729" />

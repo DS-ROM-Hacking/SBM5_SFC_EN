@@ -1,2 +1,3 @@
 @echo off
-cmd /K .\Code\pyenv\Scripts\activate
+cd Code
+cmd /K .\pyenv\Scripts\activate
