@@ -87,7 +87,7 @@ def export_log(log_filename, pc_bnk):
     write_file(log_filename, log)
 
 
-def extract_data_blocks(filename, export_path, pc_bnk, expand=False):
+def extract_data_blocks(filename, export_path, pc_bnk, expand=False, header_size=0x0):
     print('Reading Data...')
     with open(filename, 'rb') as rom_file:
         idx = 0
@@ -111,7 +111,8 @@ def extract_data_blocks(filename, export_path, pc_bnk, expand=False):
                 ptr.to_bytes(2, 'big').hex().upper())
             # write the extracted data block to it's own file
             if expand:
-                this_data = unrle(this_data, 0x5)
+                print("Expanding...")
+                this_data = unrle(this_data, header_size=header_size)
             write_file(this_name, this_data, 'wb')
             idx += 1
         rom_file.close()
@@ -141,6 +142,6 @@ pointer_sort = read_and_sort_ptr_table(menu_ptr_table_path, pc_pointer_bnk)
 
 export_log(menu_log_output_file, pc_pointer_bnk)
 
-extract_data_blocks(menu_rom_file_path, menu_data_export_path, pc_pointer_bnk, True)
+extract_data_blocks(menu_rom_file_path, menu_data_export_path, pc_pointer_bnk, True, 0x5)
 
 print('SUCCESS')

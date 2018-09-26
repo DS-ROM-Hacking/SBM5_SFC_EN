@@ -43,7 +43,7 @@
 	<rep file="Data\0x110782_1Player_2Player.bin" offset="110782" />
 	
 	<!-- Pointer Table for Menu Text Tilemaps -->
-	<rep file="Data\0x11A000_MenuTextPointerTable_TESTING.bin" offset="11A000" />
+	<rep file="Data\0x11A000_MenuTextPointerTable.bin" offset="11A000" />
 
 	<rep file="Data\0x11B0E9_ComLevel.bin" offset="11B0E9" />
 	<rep file="Data\0x11EFD0_EasyText.bin" offset="11EFD0" />

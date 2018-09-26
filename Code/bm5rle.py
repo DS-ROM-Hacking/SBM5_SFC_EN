@@ -1,12 +1,20 @@
-def unrle(rom, start=0x000000, length=0xffff):
+def unrle(rom, start=0x000000, length=0xffff, header_size=0x0):
 
-    rompos = start
+    rompos = start + header_size
     romend = start + length
 
     ring = bytearray(256)
     ringpos = 0
 
     vram = bytearray()
+    header = None
+
+    if header_size > 0:
+        header = bytearray(header_size)
+
+        for i in range(header_size):
+            header[i] = rom[i]
+            print('wrote byte')
 
     def copy(frompos, topos, cnt, add):
 
@@ -70,6 +78,9 @@ def unrle(rom, start=0x000000, length=0xffff):
                 ringpos = (ringpos + cnt) & 255
     except:
         print('aborted')
+
+    if header and len(header) > 0:
+        vram = header + vram
 
     return vram
 
