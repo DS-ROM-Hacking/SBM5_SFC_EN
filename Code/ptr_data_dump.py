@@ -35,24 +35,80 @@ def write_file(filename, data, wtype='w'):
         print('FILE SAVED')
 
 
-def read_and_sort_ptr_table(filename, pc_bnk, max_len=255, file_pos=None):
+OFFSET_TYPE = {'0': 'none', '1': 'before', '2': 'after'}
+MAPPING_TYPE = {'0': 'lorom', '1': 'hirom', '2': 'exlorom', '3': 'exhirom'}
+
+
+def normalize_type(type, type_dict):
+    for k, v in type_dict:
+        if str(type).lower() == k or str(type).lower() == v:
+            return k
+    return None
+
+
+def pc_to_lorom(addr):
+    if addr < 0 or addr >= 0x400000:
+        return None
+    outval = ((addr << 1) & 0x7F0000) | (addr & 0x7FFF) | 0x8000
+    if (outval & 0xF00000) == 0x700000:
+        outval = outval | 0x800000
+    return outval
+
+
+def lorom_to_pc(addr):
+    if (addr < 0 or addr > 0xFFFFFF) or (addr & 0xFE0000) == 0x7E0000 or (addr & 0x408000) == 0x000000:
+        return None
+    return (addr & 0x7F0000) >> 1 | (addr & 0x7FFF)
+
+
+def pc_to_hirom(addr):
+    if addr < 0x400000:
+        final = addr
+    elif addr < 0x700000:
+        final = addr - 0x400000
+    elif addr < 0x800000:
+        final = (addr & 0xffff) + 0x700000  # SRAM
+    elif addr < 0xc00000:
+        final = addr - 0x800000
+    elif addr > 0xbf0000:
+        final = addr - 0xc00000
+    else:
+        final = addr
+    return final
+
+
+# pc_bnk is only required if the pointer table is 3 bytes
+def read_and_sort_ptr_table(filename, pc_bnk=0x0, max_len=255, file_pos=None, ptr_length=0x02,
+                            ptr_offset=0x0, offset_type='0', mapping_type='0'):
     print("READING:")
     index = 0
+    offset_type = normalize_type(offset_type, OFFSET_TYPE)
+    mapping_type = normalize_type(mapping_type, MAPPING_TYPE)
+    extra_data = None
     with open(filename, 'rb') as ptr_file:
         if file_pos is not None:
             ptr_file.seek(file_pos)
         while True:
-            ptr = ptr_file.read(2)  # Read 2 bytes
+            if offset_type == '1' and ptr_offset > 0:  # OFFSET BEFORE
+                extra_data = ptr_file.read(ptr_offset)
+            ptr = ptr_file.read(ptr_length)  # Read x number of bytes
             if len(ptr) == 0:
                 break
+            if offset_type == '2' and ptr_offset > 0:  # OFFSET AFTER
+                extra_data = ptr_file.read(ptr_offset)
 
             int_ptr = int.from_bytes(ptr, byteorder='little')  # convert the pointer to an int value
             fp = pc_bnk + int_ptr  # add the bank to the pointer
+            if mapping_type == '0':
+                snes_fp = pc_to_lorom(fp)
+            elif mapping_type == '1':
+                snes_fp = pc_to_hirom(fp)
             print('Index: {0}, Value: {1}, Integer: {2}, PC Ptr: {3}'.format(index,
                                                                              ptr.hex().upper(),
                                                                              int_ptr,
                                                                              fp.to_bytes(3,
-                                                                                         byteorder='big').hex().upper()))
+                                                                                         byteorder='big').hex().upper()
+                                                                             ))
 
             # writing these lists in the "global" scope
             pointer_list.append(ptr)  # keep a list of the original bytes
@@ -69,7 +125,7 @@ def read_and_sort_ptr_table(filename, pc_bnk, max_len=255, file_pos=None):
     return ptr_sort
 
 
-def export_log(log_filename, pc_bnk):
+def export_log(log_filename, pc_bnk=0x0):
     # the following loop is just dumping a text version of the pointer table with detail (not required)
     log = ''
     print("SORTED:")
@@ -87,7 +143,7 @@ def export_log(log_filename, pc_bnk):
     write_file(log_filename, log)
 
 
-def extract_data_blocks(filename, export_path, pc_bnk, expand=False, header_size=0x0):
+def extract_data_blocks(filename, export_path, pc_bnk=0x0, expand=False, header_size=0x0, footer_size=0x0):
     print('Reading Data...')
     with open(filename, 'rb') as rom_file:
         idx = 0
@@ -99,7 +155,7 @@ def extract_data_blocks(filename, export_path, pc_bnk, expand=False, header_size
             if len(pointer_sort) > (idx + 1):
                 next_ptr = pointer_sort[idx + 1]  # get the position of the next data block
             else:
-                next_ptr = pointer_sort[idx] + 64 # default to 64 bytes in this block... needs manual correction rn
+                next_ptr = pointer_sort[idx] + 64  # default to 64 bytes in this block... needs manual correction rn
             length = next_ptr - ptr  # get the length of the next data block
             print('Length:', length)
 
@@ -112,7 +168,7 @@ def extract_data_blocks(filename, export_path, pc_bnk, expand=False, header_size
             # write the extracted data block to it's own file
             if expand:
                 print("Expanding...")
-                this_data = unrle(this_data, header_size=header_size)
+                this_data = unrle(this_data, header_size=header_size, footer_size=footer_size)
             write_file(this_name, this_data, 'wb')
             idx += 1
         rom_file.close()
@@ -134,7 +190,7 @@ def extract_data_blocks(filename, export_path, pc_bnk, expand=False, header_size
 menu_log_output_file = '../Notes/wip_menu_layout_data_pointers.txt'
 menu_rom_file_path = '../SuperBomberMan5_EN_v0.01.sfc'
 menu_ptr_table_path = '../Data/0x11A000_MenuTextPointerTable.bin'
-menu_data_export_path = '../Data/wip_menu_layout_data/'
+menu_data_export_path = '../Data/wip_menu_layout_data_expanded/'
 pc_pointer_bnk = 0x110000
 
 # at this point, this could become a commandline utility, but for now, I'll document the process as variables above
@@ -142,6 +198,6 @@ pointer_sort = read_and_sort_ptr_table(menu_ptr_table_path, pc_pointer_bnk)
 
 export_log(menu_log_output_file, pc_pointer_bnk)
 
-extract_data_blocks(menu_rom_file_path, menu_data_export_path, pc_pointer_bnk, True, 0x5)
+extract_data_blocks(menu_rom_file_path, menu_data_export_path, pc_pointer_bnk, True, 0x5, 0x4)
 
 print('SUCCESS')
