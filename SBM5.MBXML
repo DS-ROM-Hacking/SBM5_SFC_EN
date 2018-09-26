@@ -1,8 +1,5 @@
 <build original="Base\base.sfc" name="SuperBomberMan5" pad="true" version="EN_v0" revision="01" revbyteloc="FFDB" path=".\" diff="">
 
-	<!-- Graphics Pointer Table  -->
-	<rep file="Data\0x5E22D_PointerTable_Fixed.bin" offset="5E22D"/>
-
 	<!-- Pointer Table for Stage Select, etc.  -->
 	<rep file="Data\0x3DC4A_MiscTextPointerTable.bin" offset="3DC4A"/>
 	
@@ -39,10 +36,14 @@
 	<rep file="Data\stage_select\0x03EF39_Index_ED_Ptr_EF39.bin" offset="3EF39"/>
 	<rep file="Data\stage_select\0x03EFA0_Index_EE_Ptr_EFA0.bin" offset="3EFA0"/>
 	
+	<!-- Graphics Pointer Table  -->
+	<rep file="Data\0x5E22D_PointerTable_Fixed.bin" offset="5E22D"/>
+	
 	<!-- 1 PLAYER GAME 2 PLAYERS GAME -->
 	<rep file="Data\0x110782_1Player_2Player.bin" offset="110782" />
 	
-	<!-- Point Table for Menu Text -->
+	<!-- Pointer Table for Menu Text Tilemaps -->
+	<rep file="Data\0x11A000_MenuTextPointerTable_TESTING.bin" offset="11A000" />
 
 	<rep file="Data\0x11B0E9_ComLevel.bin" offset="11B0E9" />
 	<rep file="Data\0x11EFD0_EasyText.bin" offset="11EFD0" />
